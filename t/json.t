@@ -85,6 +85,6 @@ sub test_json {
 }
 
 ok(test_json('t/char.json', 'WoW::Armory::Class::Character'));
-#ok(test_json('t/guild.json', 'WoW::Armory::Class::Guild'));
+ok(test_json('t/guild.json', 'WoW::Armory::Class::Guild'));
 
 1;
