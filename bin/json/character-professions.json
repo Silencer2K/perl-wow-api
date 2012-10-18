@@ -1,0 +1,106 @@
+{
+    "achievementPoints": 675, 
+    "battlegroup": "Test Battlegroup", 
+    "calcClass": "f", 
+    "class": 10, 
+    "gender": 1, 
+    "lastModified": 1348187981118, 
+    "level": 90, 
+    "name": "Peratryn", 
+    "professions": {
+        "primary": [
+            {
+                "icon": "trade_tailoring", 
+                "id": 197, 
+                "max": 600, 
+                "name": "Tailoring", 
+                "rank": 600, 
+                "recipes": [
+                    2385, 
+                    2386, 
+                    2387, 
+                    2392, 
+                    2393, 
+                    2394, 
+                    2395, 
+                    2396, 
+                    2397, 
+                    2399, 
+                    2402, 
+                    2963, 
+                    2964, 
+                    3755, 
+                    3757, 
+                    3840, 
+                    3841, 
+                    3842, 
+                    3845, 
+                    3914, 
+                    3915, 
+                    7623, 
+                    7624, 
+                    8465, 
+                    8776, 
+                    12044, 
+                    12045, 
+                    12046, 
+                    125481, 
+                    125482, 
+                    125483, 
+                    125496, 
+                    125497
+                ]
+            }, 
+            {
+                "icon": "inv_misc_gem_01", 
+                "id": 755, 
+                "max": 600, 
+                "name": "Jewelcrafting", 
+                "rank": 600, 
+                "recipes": [
+                    25255, 
+                    25493, 
+                    26925, 
+                    32259
+                ]
+            }
+        ], 
+        "secondary": [
+            {
+                "icon": "spell_holy_sealofsacrifice", 
+                "id": 129, 
+                "max": 0, 
+                "name": "First Aid", 
+                "rank": 0, 
+                "recipes": []
+            }, 
+            {
+                "icon": "trade_archaeology", 
+                "id": 794, 
+                "max": 0, 
+                "name": "Archaeology", 
+                "rank": 0, 
+                "recipes": []
+            }, 
+            {
+                "icon": "trade_fishing", 
+                "id": 356, 
+                "max": 0, 
+                "name": "Fishing", 
+                "rank": 0, 
+                "recipes": []
+            }, 
+            {
+                "icon": "inv_misc_food_15", 
+                "id": 185, 
+                "max": 0, 
+                "name": "Cooking", 
+                "rank": 0, 
+                "recipes": []
+            }
+        ]
+    }, 
+    "race": 25, 
+    "realm": "Test Realm", 
+    "thumbnail": "test-realm/1/1-avatar.jpg"
+}

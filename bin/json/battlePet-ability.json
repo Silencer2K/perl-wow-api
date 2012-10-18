@@ -1,0 +1,10 @@
+{
+    "cooldown": 0, 
+    "icon": "spell_shadow_plaguecloud", 
+    "id": 640, 
+    "isPassive": false, 
+    "name": "Toxic Smoke", 
+    "petTypeId": 9, 
+    "rounds": 1, 
+    "showHints": false
+}

@@ -1,0 +1,44 @@
+{
+    "achievementPoints": 675, 
+    "battlegroup": "Test Battlegroup", 
+    "calcClass": "f", 
+    "class": 10, 
+    "gender": 1, 
+    "lastModified": 1348187981118, 
+    "level": 90, 
+    "name": "Peratryn", 
+    "petSlots": [
+        {
+            "abilities": [
+                110, 
+                310, 
+                376
+            ], 
+            "battlePetId": 1, 
+            "isEmpty": false, 
+            "isLocked": false, 
+            "slot": 1
+        }, 
+        {
+            "abilities": [
+                765, 
+                766, 
+                767
+            ], 
+            "battlePetId": 7476, 
+            "isEmpty": false, 
+            "isLocked": false, 
+            "slot": 2
+        }, 
+        {
+            "abilities": [], 
+            "battlePetId": 0, 
+            "isEmpty": true, 
+            "isLocked": true, 
+            "slot": 3
+        }
+    ], 
+    "race": 25, 
+    "realm": "Test Realm", 
+    "thumbnail": "test-realm/1/1-avatar.jpg"
+}

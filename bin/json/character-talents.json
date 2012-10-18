@@ -1,0 +1,114 @@
+{
+    "achievementPoints": 675, 
+    "battlegroup": "Test Battlegroup", 
+    "calcClass": "f", 
+    "class": 10, 
+    "gender": 1, 
+    "lastModified": 1348187981118, 
+    "level": 90, 
+    "name": "Peratryn", 
+    "race": 25, 
+    "realm": "Test Realm", 
+    "talents": [
+        {
+            "calcGlyph": "Vfp", 
+            "calcSpec": "b", 
+            "calcTalent": "01.01.", 
+            "glyphs": {
+                "major": [
+                    {
+                        "glyph": 1015, 
+                        "icon": "ability_monk_breathoffire", 
+                        "item": 85685, 
+                        "name": "Glyph of Breath of Fire"
+                    }, 
+                    {
+                        "glyph": 1016, 
+                        "icon": "ability_monk_clashingoxcharge", 
+                        "item": 85687, 
+                        "name": "Glyph of Clash"
+                    }
+                ], 
+                "minor": [
+                    {
+                        "glyph": 1041, 
+                        "icon": "ability_monk_dpsstance", 
+                        "item": 87888, 
+                        "name": "Glyph of Fighting Pose"
+                    }
+                ]
+            }, 
+            "selected": true, 
+            "spec": {
+                "backgroundImage": "bg-monk-battledancer", 
+                "description": "A martial artist without peer who pummels foes with hands and fists.", 
+                "icon": "spell_monk_windwalker_spec", 
+                "name": "Windwalker", 
+                "order": 2, 
+                "role": "DPS"
+            }, 
+            "talents": [
+                {
+                    "column": 0, 
+                    "spell": {
+                        "castTime": "Passive", 
+                        "description": "Allows you to Roll and Chi Torpedo more often, increases their maximum number of charges by 1, and reduces their cooldown by 5 sec.", 
+                        "icon": "ability_monk_quipunch", 
+                        "id": 115173, 
+                        "name": "Celerity", 
+                        "subtext": "Passive Talent"
+                    }, 
+                    "tier": 0
+                }, 
+                {
+                    "column": 1, 
+                    "spell": {
+                        "castTime": "Instant", 
+                        "description": "Forms a Zen Sphere above the target, healing the target for 139 and dealing 45 damage to the nearest enemy within 10 yards of the target every 2 sec for 16 sec. Only one Zen Sphere can be summoned at any one time.\n\n\n\nIf Zen Sphere is cast again while active, the Zen Sphere will detonate, dealing 158 damage and 496 healing to all targets within 10 yards.", 
+                        "icon": "ability_monk_forcesphere", 
+                        "id": 124081, 
+                        "name": "Zen Sphere", 
+                        "powerCost": "", 
+                        "range": "40 yd range"
+                    }, 
+                    "tier": 1
+                }, 
+                {
+                    "column": 1, 
+                    "spell": {
+                        "castTime": "Instant", 
+                        "cooldown": "1.5 min cooldown", 
+                        "description": "You dampen the damage from the most harmful attacks done to you. The next 3 attacks within 45 sec that deal damage equal to 10% or more of your total health are reduced in half.", 
+                        "icon": "ability_monk_dampenharm", 
+                        "id": 122278, 
+                        "name": "Dampen Harm"
+                    }, 
+                    "tier": 4
+                }, 
+                {
+                    "column": 0, 
+                    "spell": {
+                        "castTime": "Passive", 
+                        "description": "Your Paralysis ability is now usable from 20 yards away.", 
+                        "icon": "ability_monk_deadlyreach", 
+                        "id": 119397, 
+                        "name": "Deadly Reach", 
+                        "subtext": "Passive Talent"
+                    }, 
+                    "tier": 3
+                }
+            ]
+        }, 
+        {
+            "calcGlyph": "", 
+            "calcSpec": "", 
+            "calcTalent": "", 
+            "glyphs": {
+                "major": [], 
+                "minor": []
+            }, 
+            "talents": []
+        }
+    ], 
+    "thumbnail": "test-realm/1/1-avatar.jpg"
+}

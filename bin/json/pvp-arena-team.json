@@ -1,0 +1,40 @@
+{
+    "created": "2010-12-14", 
+    "currentWeekRanking": 0, 
+    "gamesLost": 0, 
+    "gamesPlayed": 0, 
+    "gamesWon": 0, 
+    "lastSessionRanking": 0, 
+    "members": [
+        {
+            "character": {
+                "achievementPoints": 5025, 
+                "battlegroup": "Reckoning", 
+                "class": 11, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Treeofapples", 
+                "race": 6, 
+                "realm": "Bonechewer", 
+                "thumbnail": "bonechewer/31/56730399-avatar.jpg"
+            }, 
+            "gamesLost": 0, 
+            "gamesPlayed": 0, 
+            "gamesWon": 0, 
+            "personalRating": 0, 
+            "rank": 0, 
+            "sessionGamesLost": 0, 
+            "sessionGamesPlayed": 0, 
+            "sessionGamesWon": 0
+        }
+    ], 
+    "name": "Samurai Jack", 
+    "ranking": 0, 
+    "rating": 0, 
+    "realm": "Bonechewer", 
+    "sessionGamesLost": 0, 
+    "sessionGamesPlayed": 0, 
+    "sessionGamesWon": 0, 
+    "side": "horde", 
+    "teamsize": 2
+}

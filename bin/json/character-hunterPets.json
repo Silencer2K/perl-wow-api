@@ -1,0 +1,32 @@
+{
+    "achievementPoints": 675, 
+    "battlegroup": "Test Battlegroup", 
+    "calcClass": "Y", 
+    "class": 3, 
+    "gender": 0, 
+    "hunterPets": [
+        {
+            "calcSpec": "Z", 
+            "creature": 57239, 
+            "familyId": 21, 
+            "familyName": "Turtle", 
+            "name": "MyPet", 
+            "selected": true, 
+            "slot": 0, 
+            "spec": {
+                "backgroundImage": "bg-deathknight-blood", 
+                "description": "", 
+                "icon": "ability_druid_demoralizingroar", 
+                "name": "Tenacity", 
+                "order": 1, 
+                "role": "TANK"
+            }
+        }
+    ], 
+    "lastModified": 1348188032176, 
+    "level": 90, 
+    "name": "Gariao", 
+    "race": 25, 
+    "realm": "Test Realm", 
+    "thumbnail": "test-realm/198/3014-avatar.jpg"
+}

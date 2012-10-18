@@ -1,0 +1,1552 @@
+{
+    "bgRecord": [
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 3000, 
+            "character": {
+                "achievementPoints": 8480, 
+                "battlegroup": "Nightfall", 
+                "class": 6, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Coachvtec", 
+                "race": 1, 
+                "realm": "Kel'Thuzad", 
+                "spec": {
+                    "backgroundImage": "bg-deathknight-unholy", 
+                    "description": "A master of death and decay, spreading infection and controlling undead minions to do his bidding.", 
+                    "icon": "spell_deathknight_unholypresence", 
+                    "name": "Unholy", 
+                    "order": 2, 
+                    "role": "DPS"
+                }, 
+                "thumbnail": "kelthuzad/100/132305764-avatar.jpg"
+            }, 
+            "lastModified": 1346610615000, 
+            "losses": -69, 
+            "played": 199, 
+            "rank": 1, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 268
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2922, 
+            "character": {
+                "achievementPoints": 5580, 
+                "battlegroup": "Bloodlust", 
+                "class": 9, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Kelarm", 
+                "race": 1, 
+                "realm": "Tichondrius", 
+                "thumbnail": "tichondrius/158/112234142-avatar.jpg"
+            }, 
+            "lastModified": 1342144689000, 
+            "losses": 94, 
+            "played": 403, 
+            "rank": 2, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Tichondrius", 
+                "slug": "tichondrius", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 309
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2857, 
+            "character": {
+                "achievementPoints": 9115, 
+                "battlegroup": "Nightfall", 
+                "class": 11, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Laser", 
+                "race": 22, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/75/133540427-avatar.jpg"
+            }, 
+            "lastModified": 1345966118000, 
+            "losses": 82, 
+            "played": 411, 
+            "rank": 3, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 329
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2817, 
+            "character": {
+                "achievementPoints": 8640, 
+                "battlegroup": "Nightfall", 
+                "class": 5, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Regrettable", 
+                "race": 22, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/79/130745935-avatar.jpg"
+            }, 
+            "lastModified": 1346099055000, 
+            "losses": 16, 
+            "played": 80, 
+            "rank": 4, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 64
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2795, 
+            "character": {
+                "achievementPoints": 7740, 
+                "battlegroup": "Nightfall", 
+                "class": 9, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Drfilomd", 
+                "race": 1, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/226/127269346-avatar.jpg"
+            }, 
+            "lastModified": 1329784876000, 
+            "losses": 0, 
+            "played": 0, 
+            "rank": 5, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 0
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2791, 
+            "character": {
+                "achievementPoints": 5505, 
+                "battlegroup": "Bloodlust", 
+                "class": 6, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Jaddon", 
+                "race": 1, 
+                "realm": "Frostmourne", 
+                "thumbnail": "frostmourne/60/117378364-avatar.jpg"
+            }, 
+            "lastModified": 1339928118000, 
+            "losses": 44, 
+            "played": 146, 
+            "rank": 6, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Frostmourne", 
+                "slug": "frostmourne", 
+                "timezone": "Australia/Melbourne"
+            }, 
+            "wins": 102
+        }, 
+        {
+            "battlegroup": {
+                "name": "Shadowburn", 
+                "slug": "shadowburn"
+            }, 
+            "bgRating": 2774, 
+            "character": {
+                "achievementPoints": 1810, 
+                "battlegroup": "Shadowburn", 
+                "class": 4, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Feintecus", 
+                "race": 2, 
+                "realm": "Lightninghoof", 
+                "thumbnail": "lightninghoof/66/90734402-avatar.jpg"
+            }, 
+            "lastModified": 1346269046000, 
+            "losses": 2, 
+            "played": 10, 
+            "rank": 7, 
+            "realm": {
+                "battlegroup": "Shadowburn", 
+                "locale": "en_US", 
+                "name": "Lightninghoof", 
+                "slug": "lightninghoof", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 8
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2752, 
+            "character": {
+                "achievementPoints": 7715, 
+                "battlegroup": "Nightfall", 
+                "class": 1, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Weme", 
+                "race": 1, 
+                "realm": "Kel'Thuzad", 
+                "spec": {
+                    "backgroundImage": "bg-warrior-arms", 
+                    "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.", 
+                    "icon": "ability_warrior_savageblow", 
+                    "name": "Arms", 
+                    "order": 0, 
+                    "role": "DPS"
+                }, 
+                "thumbnail": "kelthuzad/79/129470287-avatar.jpg"
+            }, 
+            "lastModified": 1346825920000, 
+            "losses": -37, 
+            "played": 162, 
+            "rank": 8, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 199
+        }, 
+        {
+            "battlegroup": {
+                "name": "Stormstrike", 
+                "slug": "stormstrike"
+            }, 
+            "bgRating": 2749, 
+            "character": {
+                "achievementPoints": 15210, 
+                "battlegroup": "Stormstrike", 
+                "class": 1, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Ex\u00e9cute", 
+                "race": 2, 
+                "realm": "Black Dragonflight", 
+                "thumbnail": "black-dragonflight/252/90273532-avatar.jpg"
+            }, 
+            "lastModified": 1344358374000, 
+            "losses": 70, 
+            "played": 341, 
+            "rank": 9, 
+            "realm": {
+                "battlegroup": "Stormstrike", 
+                "locale": "en_US", 
+                "name": "Black Dragonflight", 
+                "slug": "black-dragonflight", 
+                "timezone": "America/New_York"
+            }, 
+            "wins": 271
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2747, 
+            "character": {
+                "achievementPoints": 2305, 
+                "battlegroup": "Bloodlust", 
+                "class": 5, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Pringlesi", 
+                "race": 4, 
+                "realm": "Frostmourne", 
+                "thumbnail": "frostmourne/98/118316130-avatar.jpg"
+            }, 
+            "lastModified": 1340004322000, 
+            "losses": 50, 
+            "played": 147, 
+            "rank": 10, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Frostmourne", 
+                "slug": "frostmourne", 
+                "timezone": "Australia/Melbourne"
+            }, 
+            "wins": 97
+        }, 
+        {
+            "battlegroup": {
+                "name": "Reckoning", 
+                "slug": "reckoning"
+            }, 
+            "bgRating": 2744, 
+            "character": {
+                "achievementPoints": 5290, 
+                "battlegroup": "Reckoning", 
+                "class": 4, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Misstaylin", 
+                "race": 1, 
+                "realm": "Frostmane", 
+                "thumbnail": "frostmane/36/83858468-avatar.jpg"
+            }, 
+            "lastModified": 1345519265000, 
+            "losses": 75, 
+            "played": 271, 
+            "rank": 11, 
+            "realm": {
+                "battlegroup": "Reckoning", 
+                "locale": "en_US", 
+                "name": "Frostmane", 
+                "slug": "frostmane", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 196
+        }, 
+        {
+            "battlegroup": {
+                "name": "Ruin", 
+                "slug": "ruin"
+            }, 
+            "bgRating": 2741, 
+            "character": {
+                "achievementPoints": 14240, 
+                "battlegroup": "Ruin", 
+                "class": 4, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Audioh", 
+                "race": 1, 
+                "realm": "Magtheridon", 
+                "thumbnail": "magtheridon/145/101909393-avatar.jpg"
+            }, 
+            "lastModified": 1336163093000, 
+            "losses": 48, 
+            "played": 419, 
+            "rank": 12, 
+            "realm": {
+                "battlegroup": "Ruin", 
+                "locale": "en_US", 
+                "name": "Magtheridon", 
+                "slug": "magtheridon", 
+                "timezone": "America/New_York"
+            }, 
+            "wins": 371
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2741, 
+            "character": {
+                "achievementPoints": 7105, 
+                "battlegroup": "Nightfall", 
+                "class": 6, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Djrealzx", 
+                "race": 3, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/32/130233376-avatar.jpg"
+            }, 
+            "lastModified": 1331188679000, 
+            "losses": 0, 
+            "played": 0, 
+            "rank": 13, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 0
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2739, 
+            "character": {
+                "achievementPoints": 5940, 
+                "battlegroup": "Bloodlust", 
+                "class": 3, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Demigodie", 
+                "race": 9, 
+                "realm": "Blackrock", 
+                "thumbnail": "blackrock/191/115501247-avatar.jpg"
+            }, 
+            "lastModified": 1345537403000, 
+            "losses": 92, 
+            "played": 357, 
+            "rank": 14, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Blackrock", 
+                "slug": "blackrock", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 265
+        }, 
+        {
+            "battlegroup": {
+                "name": "Vengeance", 
+                "slug": "vengeance"
+            }, 
+            "bgRating": 2733, 
+            "character": {
+                "achievementPoints": 5245, 
+                "battlegroup": "Vengeance", 
+                "class": 8, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Bobjob", 
+                "race": 1, 
+                "realm": "Korgath", 
+                "thumbnail": "korgath/216/85835992-avatar.jpg"
+            }, 
+            "lastModified": 1332480262000, 
+            "losses": 0, 
+            "played": 0, 
+            "rank": 15, 
+            "realm": {
+                "battlegroup": "Vengeance", 
+                "locale": "en_US", 
+                "name": "Korgath", 
+                "slug": "korgath", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 0
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2730, 
+            "character": {
+                "achievementPoints": 3345, 
+                "battlegroup": "Bloodlust", 
+                "class": 5, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Shirwin", 
+                "race": 10, 
+                "realm": "Barthilas", 
+                "thumbnail": "barthilas/153/103024793-avatar.jpg"
+            }, 
+            "lastModified": 1342117034000, 
+            "losses": 82, 
+            "played": 279, 
+            "rank": 16, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Barthilas", 
+                "slug": "barthilas", 
+                "timezone": "Australia/Melbourne"
+            }, 
+            "wins": 197
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2729, 
+            "character": {
+                "achievementPoints": 5765, 
+                "battlegroup": "Bloodlust", 
+                "class": 1, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Muskratz", 
+                "race": 7, 
+                "realm": "Tichondrius", 
+                "spec": {
+                    "backgroundImage": "bg-warrior-protection", 
+                    "description": "A stalwart protector who uses a shield to safeguard himself and his allies.", 
+                    "icon": "ability_warrior_defensivestance", 
+                    "name": "Protection", 
+                    "order": 2, 
+                    "role": "TANK"
+                }, 
+                "thumbnail": "tichondrius/40/108286760-avatar.jpg"
+            }, 
+            "lastModified": 1346643238000, 
+            "losses": -38, 
+            "played": 213, 
+            "rank": 17, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Tichondrius", 
+                "slug": "tichondrius", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 251
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2723, 
+            "character": {
+                "achievementPoints": 6030, 
+                "battlegroup": "Nightfall", 
+                "class": 7, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Waatx", 
+                "race": 3, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/28/129364508-avatar.jpg"
+            }, 
+            "lastModified": 1339888512000, 
+            "losses": 34, 
+            "played": 262, 
+            "rank": 18, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 228
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2714, 
+            "character": {
+                "achievementPoints": 6645, 
+                "battlegroup": "Nightfall", 
+                "class": 5, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Noximi", 
+                "race": 4, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/112/134473584-avatar.jpg"
+            }, 
+            "lastModified": 1346137221000, 
+            "losses": -24, 
+            "played": 132, 
+            "rank": 19, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 156
+        }, 
+        {
+            "battlegroup": {
+                "name": "Rampage", 
+                "slug": "rampage"
+            }, 
+            "bgRating": 2714, 
+            "character": {
+                "achievementPoints": 8165, 
+                "battlegroup": "Rampage", 
+                "class": 1, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Desqc", 
+                "race": 2, 
+                "realm": "Illidan", 
+                "thumbnail": "illidan/146/94923410-avatar.jpg"
+            }, 
+            "lastModified": 1344355824000, 
+            "losses": 38, 
+            "played": 130, 
+            "rank": 20, 
+            "realm": {
+                "battlegroup": "Rampage", 
+                "locale": "en_US", 
+                "name": "Illidan", 
+                "slug": "illidan", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 92
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2706, 
+            "character": {
+                "achievementPoints": 9200, 
+                "battlegroup": "Bloodlust", 
+                "class": 9, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Dameth", 
+                "race": 1, 
+                "realm": "Tichondrius", 
+                "thumbnail": "tichondrius/75/106281547-avatar.jpg"
+            }, 
+            "lastModified": 1321051707000, 
+            "losses": 7, 
+            "played": 115, 
+            "rank": 21, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Tichondrius", 
+                "slug": "tichondrius", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 108
+        }, 
+        {
+            "battlegroup": {
+                "name": "Retaliation", 
+                "slug": "retaliation"
+            }, 
+            "bgRating": 2702, 
+            "character": {
+                "achievementPoints": 13090, 
+                "battlegroup": "Retaliation", 
+                "class": 8, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Yertkeke", 
+                "race": 1, 
+                "realm": "Ghostlands", 
+                "thumbnail": "ghostlands/245/83019253-avatar.jpg"
+            }, 
+            "lastModified": 1345876856000, 
+            "losses": 121, 
+            "played": 515, 
+            "rank": 22, 
+            "realm": {
+                "battlegroup": "Retaliation", 
+                "locale": "en_US", 
+                "name": "Ghostlands", 
+                "slug": "ghostlands", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 394
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2701, 
+            "character": {
+                "achievementPoints": 3870, 
+                "battlegroup": "Bloodlust", 
+                "class": 7, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "R\u00edan", 
+                "race": 11, 
+                "realm": "Tichondrius", 
+                "thumbnail": "tichondrius/115/111330419-avatar.jpg"
+            }, 
+            "lastModified": 1346799777000, 
+            "losses": 2, 
+            "played": 58, 
+            "rank": 23, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Tichondrius", 
+                "slug": "tichondrius", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 56
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2700, 
+            "character": {
+                "achievementPoints": 7000, 
+                "battlegroup": "Nightfall", 
+                "class": 11, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Phoenixz", 
+                "race": 4, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/0/120278784-avatar.jpg"
+            }, 
+            "lastModified": 1323128607000, 
+            "losses": 0, 
+            "played": 0, 
+            "rank": 24, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 0
+        }, 
+        {
+            "battlegroup": {
+                "name": "Ruin", 
+                "slug": "ruin"
+            }, 
+            "bgRating": 2691, 
+            "character": {
+                "achievementPoints": 6335, 
+                "battlegroup": "Ruin", 
+                "class": 9, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "C\u00f8ry", 
+                "race": 1, 
+                "realm": "Skullcrusher", 
+                "thumbnail": "skullcrusher/171/105032619-avatar.jpg"
+            }, 
+            "lastModified": 1345618648000, 
+            "losses": 132, 
+            "played": 442, 
+            "rank": 25, 
+            "realm": {
+                "battlegroup": "Ruin", 
+                "locale": "en_US", 
+                "name": "Skullcrusher", 
+                "slug": "skullcrusher", 
+                "timezone": "America/New_York"
+            }, 
+            "wins": 310
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2685, 
+            "character": {
+                "achievementPoints": 7400, 
+                "battlegroup": "Bloodlust", 
+                "class": 7, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Akuras", 
+                "race": 11, 
+                "realm": "Frostmourne", 
+                "thumbnail": "frostmourne/220/120131036-avatar.jpg"
+            }, 
+            "lastModified": 1346807406000, 
+            "losses": -4, 
+            "played": 13, 
+            "rank": 26, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Frostmourne", 
+                "slug": "frostmourne", 
+                "timezone": "Australia/Melbourne"
+            }, 
+            "wins": 17
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2682, 
+            "character": {
+                "achievementPoints": 8425, 
+                "battlegroup": "Nightfall", 
+                "class": 1, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Thorrior", 
+                "race": 1, 
+                "realm": "Kel'Thuzad", 
+                "spec": {
+                    "backgroundImage": "bg-warrior-arms", 
+                    "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.", 
+                    "icon": "ability_warrior_savageblow", 
+                    "name": "Arms", 
+                    "order": 0, 
+                    "role": "DPS"
+                }, 
+                "thumbnail": "kelthuzad/228/130220772-avatar.jpg"
+            }, 
+            "lastModified": 1346198511000, 
+            "losses": 8, 
+            "played": 97, 
+            "rank": 27, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 89
+        }, 
+        {
+            "battlegroup": {
+                "name": "Retaliation", 
+                "slug": "retaliation"
+            }, 
+            "bgRating": 2678, 
+            "character": {
+                "achievementPoints": 10905, 
+                "battlegroup": "Retaliation", 
+                "class": 4, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Hashbrowns", 
+                "race": 1, 
+                "realm": "Exodar", 
+                "thumbnail": "exodar/17/80995601-avatar.jpg"
+            }, 
+            "lastModified": 1336744397000, 
+            "losses": 94, 
+            "played": 538, 
+            "rank": 28, 
+            "realm": {
+                "battlegroup": "Retaliation", 
+                "locale": "en_US", 
+                "name": "Exodar", 
+                "slug": "exodar", 
+                "timezone": "America/New_York"
+            }, 
+            "wins": 444
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2671, 
+            "character": {
+                "achievementPoints": 910, 
+                "battlegroup": "Bloodlust", 
+                "class": 4, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Forgivve", 
+                "race": 8, 
+                "realm": "Barthilas", 
+                "thumbnail": "barthilas/7/116684807-avatar.jpg"
+            }, 
+            "lastModified": 1337278251000, 
+            "losses": 22, 
+            "played": 39, 
+            "rank": 29, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Barthilas", 
+                "slug": "barthilas", 
+                "timezone": "Australia/Melbourne"
+            }, 
+            "wins": 17
+        }, 
+        {
+            "battlegroup": {
+                "name": "Whirlwind", 
+                "slug": "whirlwind"
+            }, 
+            "bgRating": 2667, 
+            "character": {
+                "achievementPoints": 2190, 
+                "battlegroup": "Whirlwind", 
+                "class": 9, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Fire", 
+                "race": 1, 
+                "realm": "Cenarius", 
+                "thumbnail": "cenarius/5/83569669-avatar.jpg"
+            }, 
+            "lastModified": 1337996106000, 
+            "losses": 86, 
+            "played": 294, 
+            "rank": 30, 
+            "realm": {
+                "battlegroup": "Whirlwind", 
+                "locale": "en_US", 
+                "name": "Cenarius", 
+                "slug": "cenarius", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 208
+        }, 
+        {
+            "battlegroup": {
+                "name": "Ruin", 
+                "slug": "ruin"
+            }, 
+            "bgRating": 2666, 
+            "character": {
+                "achievementPoints": 14000, 
+                "battlegroup": "Ruin", 
+                "class": 7, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Mugemsz", 
+                "race": 3, 
+                "realm": "Magtheridon", 
+                "thumbnail": "magtheridon/26/94481690-avatar.jpg"
+            }, 
+            "lastModified": 1336421698000, 
+            "losses": 30, 
+            "played": 136, 
+            "rank": 31, 
+            "realm": {
+                "battlegroup": "Ruin", 
+                "locale": "en_US", 
+                "name": "Magtheridon", 
+                "slug": "magtheridon", 
+                "timezone": "America/New_York"
+            }, 
+            "wins": 106
+        }, 
+        {
+            "battlegroup": {
+                "name": "Stormstrike", 
+                "slug": "stormstrike"
+            }, 
+            "bgRating": 2666, 
+            "character": {
+                "achievementPoints": 4845, 
+                "battlegroup": "Stormstrike", 
+                "class": 2, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Mnsf", 
+                "race": 10, 
+                "realm": "Mal'Ganis", 
+                "thumbnail": "malganis/222/83238366-avatar.jpg"
+            }, 
+            "lastModified": 1313938496000, 
+            "losses": 10, 
+            "played": 85, 
+            "rank": 32, 
+            "realm": {
+                "battlegroup": "Stormstrike", 
+                "locale": "en_US", 
+                "name": "Mal'Ganis", 
+                "slug": "malganis", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 75
+        }, 
+        {
+            "battlegroup": {
+                "name": "Rampage", 
+                "slug": "rampage"
+            }, 
+            "bgRating": 2665, 
+            "character": {
+                "achievementPoints": 2780, 
+                "battlegroup": "Rampage", 
+                "class": 2, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Cjq", 
+                "race": 10, 
+                "realm": "Illidan", 
+                "spec": {
+                    "backgroundImage": "bg-paladin-retribution", 
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.", 
+                    "icon": "spell_holy_auraoflight", 
+                    "name": "Retribution", 
+                    "order": 2, 
+                    "role": "DPS"
+                }, 
+                "thumbnail": "illidan/155/92101019-avatar.jpg"
+            }, 
+            "lastModified": 1346944731000, 
+            "losses": 6, 
+            "played": 22, 
+            "rank": 33, 
+            "realm": {
+                "battlegroup": "Rampage", 
+                "locale": "en_US", 
+                "name": "Illidan", 
+                "slug": "illidan", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 16
+        }, 
+        {
+            "battlegroup": {
+                "name": "Ruin", 
+                "slug": "ruin"
+            }, 
+            "bgRating": 2660, 
+            "character": {
+                "achievementPoints": 2400, 
+                "battlegroup": "Ruin", 
+                "class": 7, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Hornmitten", 
+                "race": 3, 
+                "realm": "Magtheridon", 
+                "thumbnail": "magtheridon/22/103174422-avatar.jpg"
+            }, 
+            "lastModified": 1345529554000, 
+            "losses": 120, 
+            "played": 637, 
+            "rank": 34, 
+            "realm": {
+                "battlegroup": "Ruin", 
+                "locale": "en_US", 
+                "name": "Magtheridon", 
+                "slug": "magtheridon", 
+                "timezone": "America/New_York"
+            }, 
+            "wins": 517
+        }, 
+        {
+            "battlegroup": {
+                "name": "Rampage", 
+                "slug": "rampage"
+            }, 
+            "bgRating": 2658, 
+            "character": {
+                "achievementPoints": 1990, 
+                "battlegroup": "Rampage", 
+                "class": 4, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Taylinn", 
+                "race": 1, 
+                "realm": "Whisperwind", 
+                "thumbnail": "whisperwind/169/94965929-avatar.jpg"
+            }, 
+            "lastModified": 1345681810000, 
+            "losses": 43, 
+            "played": 182, 
+            "rank": 35, 
+            "realm": {
+                "battlegroup": "Rampage", 
+                "locale": "en_US", 
+                "name": "Whisperwind", 
+                "slug": "whisperwind", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 139
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2655, 
+            "character": {
+                "achievementPoints": 2055, 
+                "battlegroup": "Nightfall", 
+                "class": 7, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Mekaz", 
+                "race": 3, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/36/134004772-avatar.jpg"
+            }, 
+            "lastModified": 1345413314000, 
+            "losses": 29, 
+            "played": 480, 
+            "rank": 36, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 451
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2652, 
+            "character": {
+                "achievementPoints": 5380, 
+                "battlegroup": "Nightfall", 
+                "class": 6, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Mugaro", 
+                "race": 1, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/29/128877853-avatar.jpg"
+            }, 
+            "lastModified": 1338604020000, 
+            "losses": 46, 
+            "played": 259, 
+            "rank": 37, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 213
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2652, 
+            "character": {
+                "achievementPoints": 2670, 
+                "battlegroup": "Nightfall", 
+                "class": 9, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Peacifire", 
+                "race": 22, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/108/129341548-avatar.jpg"
+            }, 
+            "lastModified": 1342569497000, 
+            "losses": 41, 
+            "played": 200, 
+            "rank": 38, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 159
+        }, 
+        {
+            "battlegroup": {
+                "name": "Rampage", 
+                "slug": "rampage"
+            }, 
+            "bgRating": 2651, 
+            "character": {
+                "achievementPoints": 4300, 
+                "battlegroup": "Rampage", 
+                "class": 1, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Reseviour", 
+                "race": 2, 
+                "realm": "Illidan", 
+                "thumbnail": "illidan/56/91828280-avatar.jpg"
+            }, 
+            "lastModified": 1341037347000, 
+            "losses": 56, 
+            "played": 217, 
+            "rank": 39, 
+            "realm": {
+                "battlegroup": "Rampage", 
+                "locale": "en_US", 
+                "name": "Illidan", 
+                "slug": "illidan", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 161
+        }, 
+        {
+            "battlegroup": {
+                "name": "Cyclone", 
+                "slug": "cyclone"
+            }, 
+            "bgRating": 2648, 
+            "character": {
+                "achievementPoints": 6320, 
+                "battlegroup": "Cyclone", 
+                "class": 8, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Skoe", 
+                "race": 1, 
+                "realm": "Darkspear", 
+                "thumbnail": "darkspear/157/71820701-avatar.jpg"
+            }, 
+            "lastModified": 1323157354000, 
+            "losses": 0, 
+            "played": 0, 
+            "rank": 40, 
+            "realm": {
+                "battlegroup": "Cyclone", 
+                "locale": "en_US", 
+                "name": "Darkspear", 
+                "slug": "darkspear", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 0
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2642, 
+            "character": {
+                "achievementPoints": 7595, 
+                "battlegroup": "Bloodlust", 
+                "class": 7, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Xecret", 
+                "race": 3, 
+                "realm": "Tichondrius", 
+                "thumbnail": "tichondrius/172/118146988-avatar.jpg"
+            }, 
+            "lastModified": 1341035478000, 
+            "losses": 33, 
+            "played": 155, 
+            "rank": 41, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Tichondrius", 
+                "slug": "tichondrius", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 122
+        }, 
+        {
+            "battlegroup": {
+                "name": "Cyclone", 
+                "slug": "cyclone"
+            }, 
+            "bgRating": 2640, 
+            "character": {
+                "achievementPoints": 7635, 
+                "battlegroup": "Cyclone", 
+                "class": 7, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Dontsitonhim", 
+                "race": 11, 
+                "realm": "Darkspear", 
+                "thumbnail": "darkspear/20/73249300-avatar.jpg"
+            }, 
+            "lastModified": 1346478071000, 
+            "losses": -43, 
+            "played": 112, 
+            "rank": 42, 
+            "realm": {
+                "battlegroup": "Cyclone", 
+                "locale": "en_US", 
+                "name": "Darkspear", 
+                "slug": "darkspear", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 155
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2638, 
+            "character": {
+                "achievementPoints": 8295, 
+                "battlegroup": "Bloodlust", 
+                "class": 8, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Alphamagelol", 
+                "race": 1, 
+                "realm": "Tichondrius", 
+                "spec": {
+                    "backgroundImage": "bg-mage-frost", 
+                    "description": "Freezes enemies in their tracks and shatters them with Frost magic.", 
+                    "icon": "spell_frost_frostbolt02", 
+                    "name": "Frost", 
+                    "order": 2, 
+                    "role": "DPS"
+                }, 
+                "thumbnail": "tichondrius/206/118358734-avatar.jpg"
+            }, 
+            "lastModified": 1347155653000, 
+            "losses": 11, 
+            "played": 45, 
+            "rank": 43, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Tichondrius", 
+                "slug": "tichondrius", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 34
+        }, 
+        {
+            "battlegroup": {
+                "name": "Stormstrike", 
+                "slug": "stormstrike"
+            }, 
+            "bgRating": 2633, 
+            "character": {
+                "achievementPoints": 3505, 
+                "battlegroup": "Stormstrike", 
+                "class": 5, 
+                "gender": 0, 
+                "level": 85, 
+                "name": "Mounsifi", 
+                "race": 5, 
+                "realm": "Mal'Ganis", 
+                "thumbnail": "malganis/208/83235280-avatar.jpg"
+            }, 
+            "lastModified": 1315730402000, 
+            "losses": 12, 
+            "played": 56, 
+            "rank": 44, 
+            "realm": {
+                "battlegroup": "Stormstrike", 
+                "locale": "en_US", 
+                "name": "Mal'Ganis", 
+                "slug": "malganis", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 44
+        }, 
+        {
+            "battlegroup": {
+                "name": "Vengeance", 
+                "slug": "vengeance"
+            }, 
+            "bgRating": 2632, 
+            "character": {
+                "achievementPoints": 3215, 
+                "battlegroup": "Vengeance", 
+                "class": 9, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Nevzing", 
+                "race": 1, 
+                "realm": "Korgath", 
+                "thumbnail": "korgath/178/87494578-avatar.jpg"
+            }, 
+            "lastModified": 1335681503000, 
+            "losses": 21, 
+            "played": 184, 
+            "rank": 45, 
+            "realm": {
+                "battlegroup": "Vengeance", 
+                "locale": "en_US", 
+                "name": "Korgath", 
+                "slug": "korgath", 
+                "timezone": "America/Chicago"
+            }, 
+            "wins": 163
+        }, 
+        {
+            "battlegroup": {
+                "name": "Whirlwind", 
+                "slug": "whirlwind"
+            }, 
+            "bgRating": 2631, 
+            "character": {
+                "achievementPoints": 5650, 
+                "battlegroup": "Whirlwind", 
+                "class": 4, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Mew", 
+                "race": 1, 
+                "realm": "Cenarius", 
+                "thumbnail": "cenarius/184/33915832-avatar.jpg"
+            }, 
+            "lastModified": 1344144286000, 
+            "losses": 64, 
+            "played": 214, 
+            "rank": 46, 
+            "realm": {
+                "battlegroup": "Whirlwind", 
+                "locale": "en_US", 
+                "name": "Cenarius", 
+                "slug": "cenarius", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 150
+        }, 
+        {
+            "battlegroup": {
+                "name": "Ruin", 
+                "slug": "ruin"
+            }, 
+            "bgRating": 2625, 
+            "character": {
+                "achievementPoints": 3935, 
+                "battlegroup": "Ruin", 
+                "class": 5, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Furchtlos", 
+                "race": 1, 
+                "realm": "Magtheridon", 
+                "thumbnail": "magtheridon/245/101072373-avatar.jpg"
+            }, 
+            "lastModified": 1346041336000, 
+            "losses": 31, 
+            "played": 88, 
+            "rank": 47, 
+            "realm": {
+                "battlegroup": "Ruin", 
+                "locale": "en_US", 
+                "name": "Magtheridon", 
+                "slug": "magtheridon", 
+                "timezone": "America/New_York"
+            }, 
+            "wins": 57
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2624, 
+            "character": {
+                "achievementPoints": 3505, 
+                "battlegroup": "Nightfall", 
+                "class": 2, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Tayrm", 
+                "race": 1, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/69/130626885-avatar.jpg"
+            }, 
+            "lastModified": 1336528585000, 
+            "losses": 53, 
+            "played": 188, 
+            "rank": 48, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 135
+        }, 
+        {
+            "battlegroup": {
+                "name": "Bloodlust", 
+                "slug": "bloodlust"
+            }, 
+            "bgRating": 2621, 
+            "character": {
+                "achievementPoints": 4720, 
+                "battlegroup": "Bloodlust", 
+                "class": 2, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Csawz", 
+                "race": 1, 
+                "realm": "Tichondrius", 
+                "thumbnail": "tichondrius/180/111139764-avatar.jpg"
+            }, 
+            "lastModified": 1322807354000, 
+            "losses": 0, 
+            "played": 0, 
+            "rank": 49, 
+            "realm": {
+                "battlegroup": "Bloodlust", 
+                "locale": "en_US", 
+                "name": "Tichondrius", 
+                "slug": "tichondrius", 
+                "timezone": "America/Los_Angeles"
+            }, 
+            "wins": 0
+        }, 
+        {
+            "battlegroup": {
+                "name": "Nightfall", 
+                "slug": "nightfall"
+            }, 
+            "bgRating": 2620, 
+            "character": {
+                "achievementPoints": 2215, 
+                "battlegroup": "Nightfall", 
+                "class": 6, 
+                "gender": 1, 
+                "level": 85, 
+                "name": "Phillol", 
+                "race": 1, 
+                "realm": "Kel'Thuzad", 
+                "thumbnail": "kelthuzad/97/128534113-avatar.jpg"
+            }, 
+            "lastModified": 1323147598000, 
+            "losses": 0, 
+            "played": 0, 
+            "rank": 50, 
+            "realm": {
+                "battlegroup": "Nightfall", 
+                "locale": "en_US", 
+                "name": "Kel'Thuzad", 
+                "slug": "kelthuzad", 
+                "timezone": "America/Denver"
+            }, 
+            "wins": 0
+        }
+    ]
+}

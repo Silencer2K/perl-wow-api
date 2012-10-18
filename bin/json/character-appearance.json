@@ -1,0 +1,22 @@
+{
+    "achievementPoints": 675, 
+    "appearance": {
+        "faceVariation": 2, 
+        "featureVariation": 5, 
+        "hairColor": 4, 
+        "hairVariation": 8, 
+        "showCloak": true, 
+        "showHelm": true, 
+        "skinColor": 4
+    }, 
+    "battlegroup": "Test Battlegroup", 
+    "calcClass": "f", 
+    "class": 10, 
+    "gender": 1, 
+    "lastModified": 1348187981118, 
+    "level": 90, 
+    "name": "Peratryn", 
+    "race": 25, 
+    "realm": "Test Realm", 
+    "thumbnail": "test-realm/1/1-avatar.jpg"
+}

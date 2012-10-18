@@ -1,0 +1,533 @@
+{
+    "achievementPoints": 50, 
+    "battlegroup": "Test Battlegroup", 
+    "challenge": [
+        {
+            "groups": [], 
+            "map": {
+                "bronzeCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 45, 
+                    "seconds": 0, 
+                    "time": 2700000
+                }, 
+                "goldCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 13, 
+                    "seconds": 0, 
+                    "time": 780000
+                }, 
+                "hasChallengeMode": true, 
+                "id": 962, 
+                "name": "Gate of the Setting Sun", 
+                "silverCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 22, 
+                    "seconds": 0, 
+                    "time": 1320000
+                }, 
+                "slug": "gate-of-the-setting-sun"
+            }
+        }, 
+        {
+            "groups": [], 
+            "map": {
+                "bronzeCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 45, 
+                    "seconds": 0, 
+                    "time": 2700000
+                }, 
+                "goldCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 12, 
+                    "seconds": 0, 
+                    "time": 720000
+                }, 
+                "hasChallengeMode": true, 
+                "id": 994, 
+                "name": "Mogu'shan Palace", 
+                "silverCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 24, 
+                    "seconds": 0, 
+                    "time": 1440000
+                }, 
+                "slug": "mogushan-palace"
+            }
+        }, 
+        {
+            "groups": [], 
+            "map": {
+                "bronzeCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 45, 
+                    "seconds": 0, 
+                    "time": 2700000
+                }, 
+                "goldCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 13, 
+                    "seconds": 0, 
+                    "time": 780000
+                }, 
+                "hasChallengeMode": true, 
+                "id": 1001, 
+                "name": "Scarlet Halls", 
+                "silverCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 22, 
+                    "seconds": 0, 
+                    "time": 1320000
+                }, 
+                "slug": "scarlet-halls"
+            }
+        }, 
+        {
+            "groups": [], 
+            "map": {
+                "bronzeCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 45, 
+                    "seconds": 0, 
+                    "time": 2700000
+                }, 
+                "goldCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 13, 
+                    "seconds": 0, 
+                    "time": 780000
+                }, 
+                "hasChallengeMode": true, 
+                "id": 1004, 
+                "name": "Scarlet Monastery", 
+                "silverCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 22, 
+                    "seconds": 0, 
+                    "time": 1320000
+                }, 
+                "slug": "scarlet-monastery"
+            }
+        }, 
+        {
+            "groups": [], 
+            "map": {
+                "bronzeCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 55, 
+                    "seconds": 0, 
+                    "time": 3300000
+                }, 
+                "goldCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 19, 
+                    "seconds": 0, 
+                    "time": 1140000
+                }, 
+                "hasChallengeMode": true, 
+                "id": 1007, 
+                "name": "Scholomance", 
+                "silverCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 33, 
+                    "seconds": 0, 
+                    "time": 1980000
+                }, 
+                "slug": "scholomance"
+            }
+        }, 
+        {
+            "groups": [
+                {
+                    "date": "2012-09-07T19:00:14.000-07:00", 
+                    "faction": "alliance", 
+                    "isRecurring": false, 
+                    "medal": "GOLD", 
+                    "members": [
+                        {
+                            "character": {
+                                "achievementPoints": 1715, 
+                                "battlegroup": "Test Battlegroup", 
+                                "class": 5, 
+                                "gender": 0, 
+                                "level": 90, 
+                                "name": "Benedict", 
+                                "race": 25, 
+                                "realm": "Test Realm", 
+                                "spec": {
+                                    "backgroundImage": "bg-priest-shadow", 
+                                    "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.", 
+                                    "icon": "spell_shadow_shadowwordpain", 
+                                    "name": "Shadow", 
+                                    "order": 2, 
+                                    "role": "DPS"
+                                }, 
+                                "thumbnail": "test-realm/7/11015-avatar.jpg"
+                            }, 
+                            "spec": {
+                                "backgroundImage": "bg-priest-shadow", 
+                                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.", 
+                                "icon": "spell_shadow_shadowwordpain", 
+                                "name": "Shadow", 
+                                "order": 2, 
+                                "role": "DPS"
+                            }
+                        }, 
+                        {
+                            "character": {
+                                "achievementPoints": 675, 
+                                "battlegroup": "Test Battlegroup", 
+                                "class": 10, 
+                                "gender": 1, 
+                                "guild": "Test Guild", 
+                                "level": 90, 
+                                "name": "Peratryn", 
+                                "race": 25, 
+                                "realm": "Test Realm", 
+                                "spec": {
+                                    "backgroundImage": "bg-monk-battledancer", 
+                                    "description": "A martial artist without peer who pummels foes with hands and fists.", 
+                                    "icon": "spell_monk_windwalker_spec", 
+                                    "name": "Windwalker", 
+                                    "order": 2, 
+                                    "role": "DPS"
+                                }, 
+                                "thumbnail": "test-realm/1/1-avatar.jpg"
+                            }, 
+                            "spec": {
+                                "backgroundImage": "bg-monk-battledancer", 
+                                "description": "A martial artist without peer who pummels foes with hands and fists.", 
+                                "icon": "spell_monk_windwalker_spec", 
+                                "name": "Windwalker", 
+                                "order": 2, 
+                                "role": "DPS"
+                            }
+                        }
+                    ], 
+                    "ranking": 1, 
+                    "time": {
+                        "hours": 0, 
+                        "milliseconds": 0, 
+                        "minutes": 5, 
+                        "seconds": 5, 
+                        "time": 305000
+                    }
+                }
+            ], 
+            "map": {
+                "bronzeCriteria": {
+                    "hours": 1, 
+                    "milliseconds": 0, 
+                    "minutes": 0, 
+                    "seconds": 0, 
+                    "time": 3600000
+                }, 
+                "goldCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 21, 
+                    "seconds": 0, 
+                    "time": 1260000
+                }, 
+                "hasChallengeMode": true, 
+                "id": 959, 
+                "name": "Shado-Pan Monastery", 
+                "silverCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 35, 
+                    "seconds": 0, 
+                    "time": 2100000
+                }, 
+                "slug": "shadopan-monastery"
+            }
+        }, 
+        {
+            "groups": [], 
+            "map": {
+                "bronzeCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 50, 
+                    "seconds": 0, 
+                    "time": 3000000
+                }, 
+                "goldCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 17, 
+                    "seconds": 30, 
+                    "time": 1050000
+                }, 
+                "hasChallengeMode": true, 
+                "id": 1011, 
+                "name": "Siege of Niuzao Temple", 
+                "silverCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 30, 
+                    "seconds": 0, 
+                    "time": 1800000
+                }, 
+                "slug": "siege-of-niuzao-temple"
+            }
+        }, 
+        {
+            "groups": [
+                {
+                    "date": "2012-07-19T23:29:56.000-07:00", 
+                    "faction": "alliance", 
+                    "isRecurring": false, 
+                    "medal": "GOLD", 
+                    "members": [
+                        {
+                            "character": {
+                                "achievementPoints": 675, 
+                                "battlegroup": "Test Battlegroup", 
+                                "class": 8, 
+                                "gender": 1, 
+                                "guild": "Test Guild", 
+                                "level": 90, 
+                                "name": "Tie", 
+                                "race": 7, 
+                                "realm": "Test Realm", 
+                                "spec": {
+                                    "backgroundImage": "bg-mage-fire", 
+                                    "description": "Ignite enemies with balls of fire and combustive flames.", 
+                                    "icon": "spell_fire_firebolt02", 
+                                    "name": "Fire", 
+                                    "order": 1, 
+                                    "role": "DPS"
+                                }, 
+                                "thumbnail": "test-realm/236/1004-avatar.jpg"
+                            }, 
+                            "spec": {
+                                "backgroundImage": "bg-mage-frost", 
+                                "description": "Freezes enemies in their tracks and shatters them with Frost magic.", 
+                                "icon": "spell_frost_frostbolt02", 
+                                "name": "Frost", 
+                                "order": 2, 
+                                "role": "DPS"
+                            }
+                        }
+                    ], 
+                    "ranking": 1, 
+                    "time": {
+                        "hours": 0, 
+                        "milliseconds": 1, 
+                        "minutes": 1, 
+                        "seconds": 8, 
+                        "time": 68001
+                    }
+                }, 
+                {
+                    "date": "2012-07-19T23:48:19.000-07:00", 
+                    "faction": "alliance", 
+                    "isRecurring": true, 
+                    "medal": "GOLD", 
+                    "members": [
+                        {
+                            "character": {
+                                "achievementPoints": 675, 
+                                "battlegroup": "Test Battlegroup", 
+                                "class": 8, 
+                                "gender": 1, 
+                                "guild": "Test Guild", 
+                                "level": 90, 
+                                "name": "Tie", 
+                                "race": 7, 
+                                "realm": "Test Realm", 
+                                "spec": {
+                                    "backgroundImage": "bg-mage-fire", 
+                                    "description": "Ignite enemies with balls of fire and combustive flames.", 
+                                    "icon": "spell_fire_firebolt02", 
+                                    "name": "Fire", 
+                                    "order": 1, 
+                                    "role": "DPS"
+                                }, 
+                                "thumbnail": "test-realm/236/1004-avatar.jpg"
+                            }, 
+                            "spec": {
+                                "backgroundImage": "bg-mage-frost", 
+                                "description": "Freezes enemies in their tracks and shatters them with Frost magic.", 
+                                "icon": "spell_frost_frostbolt02", 
+                                "name": "Frost", 
+                                "order": 2, 
+                                "role": "DPS"
+                            }
+                        }, 
+                        {
+                            "character": {
+                                "achievementPoints": 280, 
+                                "battlegroup": "Test Battlegroup", 
+                                "class": 11, 
+                                "gender": 1, 
+                                "guild": "Test Guild", 
+                                "level": 90, 
+                                "name": "Kynsia", 
+                                "race": 4, 
+                                "realm": "Test Realm", 
+                                "spec": {
+                                    "backgroundImage": "bg-druid-restoration", 
+                                    "description": "Uses heal-over-time Nature spells to keep allies alive.", 
+                                    "icon": "spell_nature_healingtouch", 
+                                    "name": "Restoration", 
+                                    "order": 3, 
+                                    "role": "HEALING"
+                                }, 
+                                "thumbnail": "test-realm/237/1005-avatar.jpg"
+                            }, 
+                            "spec": {
+                                "backgroundImage": "bg-druid-restoration", 
+                                "description": "Uses heal-over-time Nature spells to keep allies alive.", 
+                                "icon": "spell_nature_healingtouch", 
+                                "name": "Restoration", 
+                                "order": 3, 
+                                "role": "HEALING"
+                            }
+                        }
+                    ], 
+                    "ranking": 2, 
+                    "time": {
+                        "hours": 0, 
+                        "milliseconds": 1, 
+                        "minutes": 1, 
+                        "seconds": 25, 
+                        "time": 85001
+                    }
+                }, 
+                {
+                    "date": "2012-09-05T22:20:32.000-07:00", 
+                    "faction": "alliance", 
+                    "isRecurring": false, 
+                    "medal": "GOLD", 
+                    "members": [
+                        {
+                            "character": {
+                                "achievementPoints": 675, 
+                                "battlegroup": "Test Battlegroup", 
+                                "class": 10, 
+                                "gender": 1, 
+                                "guild": "Test Guild", 
+                                "level": 90, 
+                                "name": "Peratryn", 
+                                "race": 25, 
+                                "realm": "Test Realm", 
+                                "spec": {
+                                    "backgroundImage": "bg-monk-battledancer", 
+                                    "description": "A martial artist without peer who pummels foes with hands and fists.", 
+                                    "icon": "spell_monk_windwalker_spec", 
+                                    "name": "Windwalker", 
+                                    "order": 2, 
+                                    "role": "DPS"
+                                }, 
+                                "thumbnail": "test-realm/1/1-avatar.jpg"
+                            }, 
+                            "spec": {
+                                "backgroundImage": "bg-monk-battledancer", 
+                                "description": "A martial artist without peer who pummels foes with hands and fists.", 
+                                "icon": "spell_monk_windwalker_spec", 
+                                "name": "Windwalker", 
+                                "order": 2, 
+                                "role": "DPS"
+                            }
+                        }
+                    ], 
+                    "ranking": 3, 
+                    "time": {
+                        "hours": 0, 
+                        "milliseconds": 1, 
+                        "minutes": 2, 
+                        "seconds": 34, 
+                        "time": 154001
+                    }
+                }
+            ], 
+            "map": {
+                "bronzeCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 45, 
+                    "seconds": 0, 
+                    "time": 2700000
+                }, 
+                "goldCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 12, 
+                    "seconds": 0, 
+                    "time": 720000
+                }, 
+                "hasChallengeMode": true, 
+                "id": 961, 
+                "name": "Stormstout Brewery", 
+                "silverCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 21, 
+                    "seconds": 0, 
+                    "time": 1260000
+                }, 
+                "slug": "stormstout-brewery"
+            }
+        }, 
+        {
+            "groups": [], 
+            "map": {
+                "bronzeCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 45, 
+                    "seconds": 0, 
+                    "time": 2700000
+                }, 
+                "goldCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 15, 
+                    "seconds": 0, 
+                    "time": 900000
+                }, 
+                "hasChallengeMode": true, 
+                "id": 960, 
+                "name": "Temple of the Jade Serpent", 
+                "silverCriteria": {
+                    "hours": 0, 
+                    "milliseconds": 0, 
+                    "minutes": 25, 
+                    "seconds": 0, 
+                    "time": 1500000
+                }, 
+                "slug": "temple-of-the-jade-serpent"
+            }
+        }
+    ], 
+    "emblem": {
+        "backgroundColor": "ff808080", 
+        "border": -1, 
+        "borderColor": "ffffffff", 
+        "icon": -1, 
+        "iconColor": "ff808080"
+    }, 
+    "lastModified": 1348197160964, 
+    "level": 25, 
+    "name": "Test Guild", 
+    "realm": "Test Realm", 
+    "side": 0
+}

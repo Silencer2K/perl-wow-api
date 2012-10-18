@@ -1,0 +1,87 @@
+{
+    "achievementPoints": 50, 
+    "battlegroup": "Test Battlegroup", 
+    "emblem": {
+        "backgroundColor": "ff808080", 
+        "border": -1, 
+        "borderColor": "ffffffff", 
+        "icon": -1, 
+        "iconColor": "ff808080"
+    }, 
+    "lastModified": 1348197160964, 
+    "level": 25, 
+    "members": [
+        {
+            "character": {
+                "achievementPoints": 675, 
+                "battlegroup": "Test Battlegroup", 
+                "class": 10, 
+                "gender": 1, 
+                "guild": "Test Guild", 
+                "level": 90, 
+                "name": "Peratryn", 
+                "race": 25, 
+                "realm": "Test Realm", 
+                "spec": {
+                    "backgroundImage": "bg-monk-battledancer", 
+                    "description": "A martial artist without peer who pummels foes with hands and fists.", 
+                    "icon": "spell_monk_windwalker_spec", 
+                    "name": "Windwalker", 
+                    "order": 2, 
+                    "role": "DPS"
+                }, 
+                "thumbnail": "test-realm/1/1-avatar.jpg"
+            }, 
+            "rank": 2
+        }, 
+        {
+            "character": {
+                "achievementPoints": 675, 
+                "battlegroup": "Test Battlegroup", 
+                "class": 8, 
+                "gender": 1, 
+                "guild": "Test Guild", 
+                "level": 90, 
+                "name": "Tie", 
+                "race": 7, 
+                "realm": "Test Realm", 
+                "spec": {
+                    "backgroundImage": "bg-mage-fire", 
+                    "description": "Ignite enemies with balls of fire and combustive flames.", 
+                    "icon": "spell_fire_firebolt02", 
+                    "name": "Fire", 
+                    "order": 1, 
+                    "role": "DPS"
+                }, 
+                "thumbnail": "test-realm/236/1004-avatar.jpg"
+            }, 
+            "rank": 0
+        }, 
+        {
+            "character": {
+                "achievementPoints": 280, 
+                "battlegroup": "Test Battlegroup", 
+                "class": 11, 
+                "gender": 1, 
+                "guild": "Test Guild", 
+                "level": 90, 
+                "name": "Kynsia", 
+                "race": 4, 
+                "realm": "Test Realm", 
+                "spec": {
+                    "backgroundImage": "bg-druid-restoration", 
+                    "description": "Uses heal-over-time Nature spells to keep allies alive.", 
+                    "icon": "spell_nature_healingtouch", 
+                    "name": "Restoration", 
+                    "order": 3, 
+                    "role": "HEALING"
+                }, 
+                "thumbnail": "test-realm/237/1005-avatar.jpg"
+            }, 
+            "rank": 1
+        }
+    ], 
+    "name": "Test Guild", 
+    "realm": "Test Realm", 
+    "side": 0
+}

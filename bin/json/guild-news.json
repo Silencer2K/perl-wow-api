@@ -1,0 +1,51 @@
+{
+    "achievementPoints": 1370, 
+    "battlegroup": "Cyclone", 
+    "emblem": {
+        "backgroundColor": "ff9e0036", 
+        "border": 0, 
+        "borderColor": "ffffffff", 
+        "icon": 67, 
+        "iconColor": "ffb1b8b1"
+    }, 
+    "lastModified": 1348442185000, 
+    "level": 25, 
+    "name": "Test Guild", 
+    "news": [
+        {
+            "character": "Flashback", 
+            "itemId": 69593, 
+            "timestamp": 1348439760000, 
+            "type": "itemLoot"
+        }, 
+        {
+            "character": "Kitai", 
+            "itemId": 77117, 
+            "timestamp": 1348411440000, 
+            "type": "itemPurchase"
+        }, 
+        {
+            "achievement": {
+                "accountWide": false, 
+                "criteria": [], 
+                "description": "Reach level 60.", 
+                "icon": "achievement_level_60", 
+                "id": 11, 
+                "points": 10, 
+                "rewardItems": [], 
+                "title": "Level 60"
+            }, 
+            "character": "Acursio", 
+            "timestamp": 1348399440000, 
+            "type": "playerAchievement"
+        }, 
+        {
+            "character": "Peratryn", 
+            "itemId": 60277, 
+            "timestamp": 1348388820000, 
+            "type": "itemPurchase"
+        } 
+    ], 
+    "realm": "Test Realm", 
+    "side": 0
+}

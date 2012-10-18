@@ -1,0 +1,28 @@
+{
+    "achievementPoints": 675, 
+    "battlegroup": "Test Battlegroup", 
+    "calcClass": "f", 
+    "class": 10, 
+    "gender": 1, 
+    "guild": {
+        "achievementPoints": 50, 
+        "battlegroup": "Test Battlegroup", 
+        "emblem": {
+            "backgroundColor": "ff808080", 
+            "border": -1, 
+            "borderColor": "ffffffff", 
+            "icon": -1, 
+            "iconColor": "ff808080"
+        }, 
+        "level": 25, 
+        "members": 3, 
+        "name": "Test Guild", 
+        "realm": "Test Realm"
+    }, 
+    "lastModified": 1348187981118, 
+    "level": 90, 
+    "name": "Peratryn", 
+    "race": 25, 
+    "realm": "Test Realm", 
+    "thumbnail": "test-realm/1/1-avatar.jpg"
+}

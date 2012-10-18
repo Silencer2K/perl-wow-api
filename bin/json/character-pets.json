@@ -1,0 +1,208 @@
+{
+    "achievementPoints": 675, 
+    "battlegroup": "Test Battlegroup", 
+    "calcClass": "f", 
+    "class": 10, 
+    "gender": 1, 
+    "lastModified": 1348187981118, 
+    "level": 90, 
+    "name": "Peratryn", 
+    "pets": {
+        "collected": [
+            {
+                "battlePetId": 3963, 
+                "canBattle": true, 
+                "creatureId": 42078, 
+                "creatureName": "Mini Thor", 
+                "icon": "t_roboticon", 
+                "isFavorite": true, 
+                "itemId": 56806, 
+                "name": "Mech", 
+                "qualityId": 3, 
+                "spellId": 78381, 
+                "stats": {
+                    "breedId": 6, 
+                    "health": 168, 
+                    "level": 1, 
+                    "petQualityId": 3, 
+                    "power": 12, 
+                    "speciesId": 258, 
+                    "speed": 8
+                }
+            }, 
+            {
+                "battlePetId": 4001, 
+                "canBattle": true, 
+                "creatureId": 11326, 
+                "creatureName": "Mini Diablo", 
+                "icon": "inv_diablostone", 
+                "isFavorite": false, 
+                "itemId": 13584, 
+                "name": "Mini Diablo", 
+                "qualityId": 3, 
+                "spellId": 17708, 
+                "stats": {
+                    "breedId": 4, 
+                    "health": 269, 
+                    "level": 4, 
+                    "petQualityId": 3, 
+                    "power": 57, 
+                    "speciesId": 93, 
+                    "speed": 44
+                }
+            }, 
+            {
+                "battlePetId": 1, 
+                "canBattle": true, 
+                "creatureId": 16547, 
+                "creatureName": "Speedy", 
+                "icon": "inv_pet_speedy", 
+                "isFavorite": false, 
+                "itemId": 23002, 
+                "name": "Speedy", 
+                "qualityId": 1, 
+                "spellId": 28738, 
+                "stats": {
+                    "breedId": 5, 
+                    "health": 292, 
+                    "level": 4, 
+                    "petQualityId": 2, 
+                    "power": 38, 
+                    "speciesId": 125, 
+                    "speed": 48
+                }
+            }, 
+            {
+                "battlePetId": 4095, 
+                "canBattle": true, 
+                "creatureId": 33529, 
+                "creatureName": "Curious Wolvar Pup", 
+                "icon": "achievement_reputation_wolvar", 
+                "isFavorite": false, 
+                "itemId": 46544, 
+                "name": "Curious Wolvar Pup", 
+                "qualityId": 3, 
+                "spellId": 65382, 
+                "stats": {
+                    "breedId": 4, 
+                    "health": 148, 
+                    "level": 1, 
+                    "petQualityId": 2, 
+                    "power": 12, 
+                    "speciesId": 226, 
+                    "speed": 10
+                }
+            }, 
+            {
+                "battlePetId": 7476, 
+                "canBattle": true, 
+                "creatureId": 29089, 
+                "creatureName": "Mini Tyrael", 
+                "icon": "inv_sword_07", 
+                "isFavorite": false, 
+                "itemId": 39656, 
+                "name": "Mini Tyrael", 
+                "qualityId": 3, 
+                "spellId": 53082, 
+                "stats": {
+                    "breedId": 3, 
+                    "health": 155, 
+                    "level": 1, 
+                    "petQualityId": 3, 
+                    "power": 11, 
+                    "speciesId": 189, 
+                    "speed": 11
+                }
+            }, 
+            {
+                "battlePetId": 7478, 
+                "canBattle": true, 
+                "creatureId": 7547, 
+                "creatureName": "Azure Whelpling", 
+                "icon": "inv_misc_head_dragon_blue", 
+                "isFavorite": false, 
+                "itemId": 34535, 
+                "name": "Azure Whelpling", 
+                "qualityId": 1, 
+                "spellId": 10696, 
+                "stats": {
+                    "breedId": 4, 
+                    "health": 155, 
+                    "level": 1, 
+                    "petQualityId": 3, 
+                    "power": 12, 
+                    "speciesId": 57, 
+                    "speed": 10
+                }
+            }, 
+            {
+                "battlePetId": 4, 
+                "canBattle": true, 
+                "creatureId": 7560, 
+                "creatureName": "Snowshoe Rabbit", 
+                "icon": "inv_crate_02", 
+                "isFavorite": false, 
+                "itemId": 8497, 
+                "name": "Baba", 
+                "qualityId": 1, 
+                "spellId": 10711, 
+                "stats": {
+                    "breedId": 21, 
+                    "health": 150, 
+                    "level": 1, 
+                    "petQualityId": 2, 
+                    "power": 9, 
+                    "speciesId": 72, 
+                    "speed": 12
+                }
+            }, 
+            {
+                "battlePetId": 5, 
+                "canBattle": true, 
+                "creatureId": 65314, 
+                "creatureName": "Jade Crane Chick", 
+                "icon": "inv_pet_babycrane", 
+                "isFavorite": false, 
+                "itemId": 88148, 
+                "name": "Jade Crane Chick", 
+                "qualityId": 1, 
+                "spellId": 127816, 
+                "stats": {
+                    "breedId": 12, 
+                    "health": 153, 
+                    "level": 1, 
+                    "petQualityId": 2, 
+                    "power": 11, 
+                    "speciesId": 792, 
+                    "speed": 9
+                }
+            }, 
+            {
+                "battlePetId": 4021, 
+                "canBattle": false, 
+                "creatureId": 54539, 
+                "creatureName": "Alliance Balloon", 
+                "icon": "inv_misc_balloon_04", 
+                "isFavorite": false, 
+                "itemId": 72042, 
+                "name": "Alliance Balloon", 
+                "qualityId": 1, 
+                "spellId": 101986, 
+                "stats": {
+                    "breedId": 3, 
+                    "health": 0, 
+                    "level": 0, 
+                    "petQualityId": 1, 
+                    "power": 0, 
+                    "speciesId": 0, 
+                    "speed": 0
+                }
+            }
+        ], 
+        "numCollected": 9, 
+        "numNotCollected": 450
+    }, 
+    "race": 25, 
+    "realm": "Test Realm", 
+    "thumbnail": "test-realm/1/1-avatar.jpg"
+}

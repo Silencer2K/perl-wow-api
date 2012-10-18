@@ -1,0 +1,13 @@
+Changes
+lib/WoW/Armory/API.pm
+lib/WoW/Armory/Class.pm
+lib/WoW/Armory/Class/Character.pm
+lib/WoW/Armory/Class/Guild.pm
+Makefile.PL
+MANIFEST
+README
+t/api.t
+t/char.json
+t/guild.json
+t/json.t
+t/use.t

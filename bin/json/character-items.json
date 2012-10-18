@@ -1,0 +1,117 @@
+{
+    "achievementPoints": 675, 
+    "battlegroup": "Test Battlegroup", 
+    "calcClass": "f", 
+    "class": 10, 
+    "gender": 1, 
+    "items": {
+        "averageItemLevel": 562, 
+        "averageItemLevelEquipped": 494, 
+        "back": {
+            "icon": "inv_misc_cape_18", 
+            "id": 58524, 
+            "name": "QA Combat Test Agility DPS Cloak", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "chest": {
+            "icon": "inv_chest_leather_03", 
+            "id": 58588, 
+            "name": "QA Combat Test Rogue Chest", 
+            "quality": 3, 
+            "tooltipParams": {
+                "reforge": 147
+            }
+        }, 
+        "feet": {
+            "icon": "inv_boots_leather01", 
+            "id": 58716, 
+            "name": "QA Combat Test Rogue Boots", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "finger1": {
+            "icon": "inv_jewelry_ring_47", 
+            "id": 58519, 
+            "name": "QA Combat Test Agility DPS Ring", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "finger2": {
+            "icon": "inv_jewelry_ring_47", 
+            "id": 58636, 
+            "name": "QA Combat Test Agility DPS Ring 2", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "hands": {
+            "icon": "inv_gauntlets_06", 
+            "id": 58589, 
+            "name": "QA Combat Test Rogue Gloves", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "legs": {
+            "icon": "inv_pants_mail_07", 
+            "id": 58518, 
+            "name": "QA Combat Test Rogue Legs", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "mainHand": {
+            "icon": "inv_weapon_halberd_20", 
+            "id": 58703, 
+            "name": "QA Combat Test Agility Polearm", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "neck": {
+            "icon": "inv_jewelry_necklace_16", 
+            "id": 58538, 
+            "name": "QA Combat Test Agility DPS Neck", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "shoulder": {
+            "icon": "inv_shoulder_23", 
+            "id": 27816, 
+            "name": "Mindrage Pauldrons", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "trinket1": {
+            "icon": "inv_misc_bone_08", 
+            "id": 58504, 
+            "name": "QA Combat Test Agility DPS Trinket", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "trinket2": {
+            "icon": "inv_misc_bone_08", 
+            "id": 58603, 
+            "name": "QA Combat Test Agility DPS Trinket 2", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "waist": {
+            "icon": "inv_belt_14", 
+            "id": 58601, 
+            "name": "QA Combat Test Rogue Belt", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }, 
+        "wrist": {
+            "icon": "inv_bracer_02", 
+            "id": 58661, 
+            "name": "QA Combat Test Rogue Bracer", 
+            "quality": 3, 
+            "tooltipParams": {}
+        }
+    }, 
+    "lastModified": 1348187981118, 
+    "level": 90, 
+    "name": "Peratryn", 
+    "race": 25, 
+    "realm": "Test Realm", 
+    "thumbnail": "test-realm/1/1-avatar.jpg"
+}

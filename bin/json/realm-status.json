@@ -1,0 +1,27 @@
+{
+    "realms": [
+        {
+            "battlegroup": "Test Battlegroup", 
+            "locale": "en_US", 
+            "name": "Test Realm", 
+            "population": "low", 
+            "queue": false, 
+            "slug": "test-realm", 
+            "status": true, 
+            "timezone": "US/Pacific", 
+            "tol-barad": {
+                "area": 21, 
+                "controlling-faction": 0, 
+                "next": 1348449555080, 
+                "status": 0
+            }, 
+            "type": "pve", 
+            "wintergrasp": {
+                "area": 1, 
+                "controlling-faction": 0, 
+                "next": 1348450543980, 
+                "status": 0
+            }
+        }
+    ]
+}
