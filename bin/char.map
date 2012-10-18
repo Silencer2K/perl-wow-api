@@ -14,7 +14,9 @@ WoW::Armory::Class::Character::Items::Trinket1          WoW::Armory::Class::Char
 WoW::Armory::Class::Character::Items::Trinket2          WoW::Armory::Class::Character::Items::Item
 WoW::Armory::Class::Character::Items::Waist             WoW::Armory::Class::Character::Items::Item
 WoW::Armory::Class::Character::Items::Wrist             WoW::Armory::Class::Character::Items::Item
+
 WoW::Armory::Class::Character::Professions::Primary     WoW::Armory::Class::Character::Professions::Profession
 WoW::Armory::Class::Character::Professions::Secondary   WoW::Armory::Class::Character::Professions::Profession
-WoW::Armory::Class::Character::Talents::Glyphs::Minor   WoW::Armory::Class::Character::Talents::Glyphs::Glyph
+
 WoW::Armory::Class::Character::Talents::Glyphs::Major   WoW::Armory::Class::Character::Talents::Glyphs::Glyph
+WoW::Armory::Class::Character::Talents::Glyphs::Minor   WoW::Armory::Class::Character::Talents::Glyphs::Glyph
