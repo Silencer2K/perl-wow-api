@@ -42,7 +42,10 @@ sub make_class_hash {
                 push @fields, $key;
             }
         }
-        elsif ($ref ne 'JSON::XS::Boolean') {
+        elsif ($ref eq 'JSON::XS::Boolean') {
+            push @fields, $key;
+        }
+        else {
             warn "I don't know what to do with $ref";
         }
     }
@@ -86,7 +89,7 @@ sub make_class_hash {
 my ($class, $map, @files) = @ARGV;
 
 $classes_map{$_->[0]} = $_->[1]
-    for map {[split /\s+/, $_, 2]} split /\r?\n/, read_file($map);
+    for map {[split /\s+/, $_, 2]} grep {$_ ne ''} split /\r?\n/, read_file($map);
 
 for my $data (map {decode_json(read_file($_))} @files) {
     make_class_hash($data, $class);

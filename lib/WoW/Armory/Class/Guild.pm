@@ -88,7 +88,7 @@ package WoW::Armory::Class::Guild::Challenge::Map;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(id name slug)];
+use constant FIELDS => [qw(hasChallengeMode id name slug)];
 
 use constant BLESSED_FIELDS =>
 {

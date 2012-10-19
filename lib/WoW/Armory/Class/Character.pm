@@ -8,7 +8,7 @@ package WoW::Armory::Class::Character::Titles;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(id name)];
+use constant FIELDS => [qw(id name selected)];
 
 __PACKAGE__->mk_accessors;
 
@@ -75,7 +75,7 @@ package WoW::Armory::Class::Character::Talents;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(calcGlyph calcSpec calcTalent)];
+use constant FIELDS => [qw(calcGlyph calcSpec calcTalent selected)];
 
 use constant BLESSED_FIELDS =>
 {
@@ -229,7 +229,8 @@ package WoW::Armory::Class::Character::Pets::Collected;
 use base 'WoW::Armory::Class';
 
 use constant FIELDS => [qw(
-    battlePetId creatureId creatureName icon itemId name qualityId spellId
+    battlePetId canBattle creatureId creatureName icon isFavorite itemId name
+    qualityId spellId
 )];
 
 use constant BLESSED_FIELDS =>
@@ -258,7 +259,9 @@ package WoW::Armory::Class::Character::PetSlots;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(abilities battlePetId slot)];
+use constant FIELDS => [qw(
+    abilities battlePetId isEmpty isLocked slot
+)];
 
 __PACKAGE__->mk_accessors;
 
@@ -268,7 +271,8 @@ package WoW::Armory::Class::Character::Mounts::Collected;
 use base 'WoW::Armory::Class';
 
 use constant FIELDS => [qw(
-    creatureId icon itemId name qualityId spellId
+    creatureId icon isAquatic isFlying isGround isJumping itemId name qualityId
+    spellId
 )];
 
 __PACKAGE__->mk_accessors;
@@ -358,7 +362,7 @@ package WoW::Armory::Class::Character::HunterPets;
 use base 'WoW::Armory::Class';
 
 use constant FIELDS => [qw(
-    calcSpec creature familyId familyName name slot
+    calcSpec creature familyId familyName name selected slot
 )];
 
 use constant BLESSED_FIELDS =>
@@ -410,7 +414,7 @@ package WoW::Armory::Class::Character::Feed::Achievement;
 use base 'WoW::Armory::Class';
 
 use constant FIELDS => [qw(
-    criteria description factionId icon id points rewardItems title
+    accountWide criteria description factionId icon id points rewardItems title
 )];
 
 use constant LIST_FIELDS =>
@@ -425,7 +429,7 @@ package WoW::Armory::Class::Character::Feed;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(timestamp type)];
+use constant FIELDS => [qw(featOfStrength timestamp type)];
 
 use constant BLESSED_FIELDS =>
 {
@@ -440,7 +444,8 @@ package WoW::Armory::Class::Character::Appearance;
 use base 'WoW::Armory::Class';
 
 use constant FIELDS => [qw(
-    faceVariation featureVariation hairColor hairVariation skinColor
+    faceVariation featureVariation hairColor hairVariation showCloak showHelm
+    skinColor
 )];
 
 __PACKAGE__->mk_accessors;
