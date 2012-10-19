@@ -3,6 +3,9 @@ package WoW::Armory::Class::Guild;
 use strict;
 use warnings;
 
+use WoW::Armory::Class::Character;
+use WoW::Armory::Class::Timestamp;
+
 ########################################################################
 package WoW::Armory::Class::Guild::News;
 
@@ -10,16 +13,10 @@ use base 'WoW::Armory::Class';
 
 use constant FIELDS => [qw(character itemId timestamp type)];
 
-__PACKAGE__->mk_accessors;
-
-########################################################################
-package WoW::Armory::Class::Guild::Members::Character::Spec;
-
-use base 'WoW::Armory::Class';
-
-use constant FIELDS => [qw(
-    backgroundImage description icon name order role
-)];
+use constant BLESSED_FIELDS =>
+{
+    achievement => 'WoW::Armory::Class::Character::Feed::Achievement',
+};
 
 __PACKAGE__->mk_accessors;
 
@@ -35,7 +32,7 @@ use constant FIELDS => [qw(
 
 use constant BLESSED_FIELDS =>
 {
-    spec    => 'WoW::Armory::Class::Guild::Members::Character::Spec',
+    spec    => 'WoW::Armory::Class::Character::Talents::Spec',
 };
 
 __PACKAGE__->mk_accessors;
@@ -59,9 +56,7 @@ package WoW::Armory::Class::Guild::Emblem;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(
-    backgroundColor border borderColor icon iconColor
-)];
+use constant FIELDS => [qw(backgroundColor border borderColor icon iconColor)];
 
 __PACKAGE__->mk_accessors;
 
@@ -75,15 +70,6 @@ use constant FIELDS => [qw(battlegroup locale name slug timezone)];
 __PACKAGE__->mk_accessors;
 
 ########################################################################
-package WoW::Armory::Class::Guild::Challenge::Map::Criteria;
-
-use base 'WoW::Armory::Class';
-
-use constant FIELDS => [qw(hours milliseconds minutes seconds time)];
-
-__PACKAGE__->mk_accessors;
-
-########################################################################
 package WoW::Armory::Class::Guild::Challenge::Map;
 
 use base 'WoW::Armory::Class';
@@ -92,9 +78,42 @@ use constant FIELDS => [qw(hasChallengeMode id name slug)];
 
 use constant BLESSED_FIELDS =>
 {
-    bronzeCriteria  => 'WoW::Armory::Class::Guild::Challenge::Map::Criteria',
-    goldCriteria    => 'WoW::Armory::Class::Guild::Challenge::Map::Criteria',
-    silverCriteria  => 'WoW::Armory::Class::Guild::Challenge::Map::Criteria',
+    bronzeCriteria  => 'WoW::Armory::Class::Timestamp',
+    goldCriteria    => 'WoW::Armory::Class::Timestamp',
+    silverCriteria  => 'WoW::Armory::Class::Timestamp',
+};
+
+__PACKAGE__->mk_accessors;
+
+########################################################################
+package WoW::Armory::Class::Guild::Challenge::Groups::Members;
+
+use base 'WoW::Armory::Class';
+
+use constant BLESSED_FIELDS =>
+{
+    character   => 'WoW::Armory::Class::Guild::Members::Character',
+    spec        => 'WoW::Armory::Class::Character::Talents::Spec',
+};
+
+__PACKAGE__->mk_accessors;
+
+########################################################################
+package WoW::Armory::Class::Guild::Challenge::Groups;
+
+use base 'WoW::Armory::Class';
+
+use constant FIELDS => [qw(date faction isRecurring medal ranking)];
+
+use constant BLESSED_FIELDS =>
+{
+    guild   => 'WoW::Armory::Class::Character::Guild',
+    time    => 'WoW::Armory::Class::Timestamp',
+};
+
+use constant LIST_FIELDS =>
+{
+    members => 'WoW::Armory::Class::Guild::Challenge::Groups::Members',
 };
 
 __PACKAGE__->mk_accessors;
@@ -104,25 +123,16 @@ package WoW::Armory::Class::Guild::Challenge;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(groups)];
-
 use constant BLESSED_FIELDS =>
 {
     map     => 'WoW::Armory::Class::Guild::Challenge::Map',
     realm   => 'WoW::Armory::Class::Guild::Challenge::Realm',
 };
 
-__PACKAGE__->mk_accessors;
-
-########################################################################
-package WoW::Armory::Class::Guild::Achievements;
-
-use base 'WoW::Armory::Class';
-
-use constant FIELDS => [qw(
-    achievementsCompleted achievementsCompletedTimestamp criteria criteriaCreated
-    criteriaQuantity criteriaTimestamp
-)];
+use constant LIST_FIELDS =>
+{
+    groups  => 'WoW::Armory::Class::Guild::Challenge::Groups',
+};
 
 __PACKAGE__->mk_accessors;
 
@@ -137,7 +147,7 @@ use constant FIELDS => [qw(
 
 use constant BLESSED_FIELDS =>
 {
-    achievements    => 'WoW::Armory::Class::Guild::Achievements',
+    achievements    => 'WoW::Armory::Class::Character::Achievements',
     emblem          => 'WoW::Armory::Class::Guild::Emblem',
 };
 

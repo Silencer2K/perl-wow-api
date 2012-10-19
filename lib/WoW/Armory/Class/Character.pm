@@ -3,6 +3,8 @@ package WoW::Armory::Class::Character;
 use strict;
 use warnings;
 
+use WoW::Armory::Class::Guild;
+
 ########################################################################
 package WoW::Armory::Class::Character::Titles;
 
@@ -18,7 +20,7 @@ package WoW::Armory::Class::Character::Talents::Talents::Spell;
 use base 'WoW::Armory::Class';
 
 use constant FIELDS => [qw(
-    castTime cooldown description icon id name range subtext
+    castTime cooldown description icon id name powerCost range subtext
 )];
 
 __PACKAGE__->mk_accessors;
@@ -42,9 +44,7 @@ package WoW::Armory::Class::Character::Talents::Spec;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(
-    backgroundImage description icon name order role
-)];
+use constant FIELDS => [qw(backgroundImage description icon name order role)];
 
 __PACKAGE__->mk_accessors;
 
@@ -259,9 +259,7 @@ package WoW::Armory::Class::Character::PetSlots;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(
-    abilities battlePetId isEmpty isLocked slot
-)];
+use constant FIELDS => [qw(abilities battlePetId isEmpty isLocked slot)];
 
 __PACKAGE__->mk_accessors;
 
@@ -319,9 +317,7 @@ package WoW::Armory::Class::Character::Items;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(
-    averageItemLevel averageItemLevelEquipped
-)];
+use constant FIELDS => [qw(averageItemLevel averageItemLevelEquipped)];
 
 use constant BLESSED_FIELDS =>
 {
@@ -346,17 +342,6 @@ use constant BLESSED_FIELDS =>
 __PACKAGE__->mk_accessors;
 
 ########################################################################
-package WoW::Armory::Class::Character::HunterPets::Spec;
-
-use base 'WoW::Armory::Class';
-
-use constant FIELDS => [qw(
-    backgroundImage description icon name order role
-)];
-
-__PACKAGE__->mk_accessors;
-
-########################################################################
 package WoW::Armory::Class::Character::HunterPets;
 
 use base 'WoW::Armory::Class';
@@ -367,19 +352,8 @@ use constant FIELDS => [qw(
 
 use constant BLESSED_FIELDS =>
 {
-    spec    => 'WoW::Armory::Class::Character::HunterPets::Spec',
+    spec    => 'WoW::Armory::Class::Character::Talents::Spec',
 };
-
-__PACKAGE__->mk_accessors;
-
-########################################################################
-package WoW::Armory::Class::Character::Guild::Emblem;
-
-use base 'WoW::Armory::Class';
-
-use constant FIELDS => [qw(
-    backgroundColor border borderColor icon iconColor
-)];
 
 __PACKAGE__->mk_accessors;
 
@@ -394,13 +368,13 @@ use constant FIELDS => [qw(
 
 use constant BLESSED_FIELDS =>
 {
-    emblem  => 'WoW::Armory::Class::Character::Guild::Emblem',
+    emblem  => 'WoW::Armory::Class::Guild::Emblem',
 };
 
 __PACKAGE__->mk_accessors;
 
 ########################################################################
-package WoW::Armory::Class::Character::Feed::Achievement::Criteria;
+package WoW::Armory::Class::Character::Feed::Criteria;
 
 use base 'WoW::Armory::Class';
 
@@ -414,12 +388,13 @@ package WoW::Armory::Class::Character::Feed::Achievement;
 use base 'WoW::Armory::Class';
 
 use constant FIELDS => [qw(
-    accountWide criteria description factionId icon id points rewardItems title
+    accountWide description factionId icon id points reward title
 )];
 
 use constant LIST_FIELDS =>
 {
-    criteria    => 'WoW::Armory::Class::Character::Feed::Achievement::Criteria',
+    criteria    => 'WoW::Armory::Class::Character::Feed::Criteria',
+    rewardItems => 'WoW::Armory::Class::Character::Items::Item',
 };
 
 __PACKAGE__->mk_accessors;
@@ -429,11 +404,12 @@ package WoW::Armory::Class::Character::Feed;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(featOfStrength timestamp type)];
+use constant FIELDS => [qw(featOfStrength itemId name quantity timestamp type)];
 
 use constant BLESSED_FIELDS =>
 {
     achievement => 'WoW::Armory::Class::Character::Feed::Achievement',
+    criteria    => 'WoW::Armory::Class::Character::Feed::Criteria',
 };
 
 __PACKAGE__->mk_accessors;
