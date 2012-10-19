@@ -41,6 +41,16 @@ sub mk_accessors {
     );
 }
 
+sub accessor_name_for {
+    my ($self, $field) = @_;
+    $field =~ s/[^a-z0-9_]/_/gi;
+    return $field;
+}
+
+sub mutator_name_for {
+    return shift->accessor_name_for(@_);
+}
+
 __PACKAGE__->mk_accessors;
 
 1;

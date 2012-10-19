@@ -106,39 +106,35 @@ sub output_class {
         my %list = %{$self->{defines}{$subclass}{list}||{}};
 
         if (%fields) {
-            my $fields = join(' ', sort keys %fields);
-            if (length $fields <= 50) {
-                print FH "use constant FIELDS => [qw($fields)];\n\n";
-            }
-            else {
-                $fields =~ s/([^\n]{70,}?) /$1\n/g;
-                $fields =~ s/^/    /gsm;
+            my $fields = join(', ', map {"'$_'"} sort keys %fields);
 
-                print FH "use constant FIELDS => [qw(\n$fields\n)];\n\n";
-            }
+            $fields =~ s/([^\n]{70,}?) /$1\n/g;
+            $fields =~ s/^/    /gsm;
+
+            print FH "use constant FIELDS => [\n$fields\n];\n\n";
         }
 
         if (%blessed) {
-            my $length = max map {length $_} keys %blessed;
+            my $length = max(map {length $_} keys %blessed) + 2;
             $length += 4 - ($length + 1) % 4 if ($length + 1) % 4;
 
             print FH "use constant BLESSED_FIELDS =>\n";
             print FH "{\n";
 
-            printf FH "    %-".$length."s => '%s',\n", $_, "$self->{namespace}::$blessed{$_}"
+            printf FH "    %-".$length."s => '%s',\n", "'$_'", "$self->{namespace}::$blessed{$_}"
                 for sort keys %blessed;
 
             print FH "};\n\n";
         }
 
         if (%list) {
-            my $length = max map {length $_} keys %list;
+            my $length = max(map {length $_} keys %list) + 2;
             $length += 4 - ($length + 1) % 4 if ($length + 1) % 4;
 
             print FH "use constant LIST_FIELDS =>\n";
             print FH "{\n";
 
-            printf FH "    %-".$length."s => '%s',\n", $_, "$self->{namespace}::$list{$_}"
+            printf FH "    %-".$length."s => '%s',\n", "'$_'", "$self->{namespace}::$list{$_}"
                 for sort keys %list;
 
             print FH "};\n\n";

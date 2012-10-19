@@ -8,7 +8,9 @@ package WoW::Armory::Class::Time;
 
 use base 'WoW::Armory::Class';
 
-use constant FIELDS => [qw(hours milliseconds minutes seconds time)];
+use constant FIELDS => [
+    'hours', 'milliseconds', 'minutes', 'seconds', 'time'
+];
 
 __PACKAGE__->mk_accessors;
 

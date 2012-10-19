@@ -55,12 +55,15 @@ sub test_hash {
     my ($hash, $struct) = @_;
 
     for my $key (keys %$hash) {
-        if (!$hash->can($key)) {
+        my $method = $key;
+        $method =~ s/[^0-9a-z_]/_/gi;
+
+        if (!$hash->can($method)) {
             warn ref($hash)."->$key() failed";
             return 0;
         }
 
-        my $value = $hash->$key;
+        my $value = $hash->$method;
         my $class = ref($value);
 
         next if !$class || $class eq 'JSON::XS::Boolean';
@@ -105,7 +108,8 @@ sub test_json {
     return test_hash($obj, "$class->");
 }
 
-ok(test_json('t/char.json', 'WoW::Armory::Class::Character'));
-ok(test_json('t/guild.json', 'WoW::Armory::Class::Guild'));
+ok(test_json('t/json/char.json', 'WoW::Armory::Class::Character'));
+ok(test_json('t/json/guild.json', 'WoW::Armory::Class::Guild'));
+ok(test_json('t/json/status.json', 'WoW::Armory::Class::RealmStatus'));
 
 1;

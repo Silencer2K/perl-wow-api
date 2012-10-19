@@ -17,11 +17,15 @@ WoW::Armory::Tools::ClassMaker->build(
     Classes     => [
         {
             Class   => 'Character',
-            Source  => ["$FindBin::Bin/json/character.json", "$FindBin::Bin/json/character-*.json", "$FindBin::Bin/../t/char.json"],
+            Source  => ["$FindBin::Bin/json/character.json", "$FindBin::Bin/json/character-*.json", "$FindBin::Bin/../t/json/char.json"],
         },
         {
             Class   => 'Guild',
-            Source  => ["$FindBin::Bin/json/guild-*.json", "$FindBin::Bin/../t/guild.json"],
+            Source  => ["$FindBin::Bin/json/guild-*.json", "$FindBin::Bin/../t/json/guild.json"],
+        },
+        {
+            Class   => 'RealmStatus',
+            Source  => ["$FindBin::Bin/json/realm-status.json", "$FindBin::Bin/../t/json/status.json"],
         },
     ],
     ClassMap    => {
@@ -61,5 +65,8 @@ WoW::Armory::Tools::ClassMaker->build(
         'Guild::Challenge::Groups::Time' => 'Time',
         'Guild::Members::Character::Spec' => 'Character::Talents::Spec',
         'Guild::News::Achievement' => 'Character::Feed::Achievement',
+
+        'RealmStatus::Realms::Tol-barad' => 'RealmStatus::Realms::Battlegrounds',
+        'RealmStatus::Realms::Wintergrasp' => 'RealmStatus::Realms::Battlegrounds',
     },
 );
