@@ -1,0 +1,74 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use FindBin;
+
+use lib "$FindBin::Bin/lib";
+
+use WoW::Armory::Tools::ClassMaker;
+
+mkdir "$FindBin::Bin/../var";
+
+WoW::Armory::Tools::ClassMaker->build(
+    NameSpace   => 'WoW::Armory::Class',
+    Output      => "$FindBin::Bin/../var",
+    Classes     => [
+        {
+            Class   => 'Character',
+            Source  => ["$FindBin::Bin/json/character.json", "$FindBin::Bin/json/character-*.json", "$FindBin::Bin/../t/char.json"],
+        },
+        {
+            Class   => 'Guild',
+            Source  => ["$FindBin::Bin/json/guild-*.json", "$FindBin::Bin/../t/guild.json"],
+        },
+    ],
+    ClassMap    => {
+        'Character::Items::Back' => 'Character::Items::Item',
+        'Character::Items::Chest' => 'Character::Items::Item',
+        'Character::Items::Feet' => 'Character::Items::Item',
+        'Character::Items::Finger1' => 'Character::Items::Item',
+        'Character::Items::Finger2' => 'Character::Items::Item',
+        'Character::Items::Hands' => 'Character::Items::Item',
+        'Character::Items::Head' => 'Character::Items::Item',
+        'Character::Items::Legs' => 'Character::Items::Item',
+        'Character::Items::MainHand' => 'Character::Items::Item',
+        'Character::Items::Neck' => 'Character::Items::Item',
+        'Character::Items::Shirt' => 'Character::Items::Item',
+        'Character::Items::Shoulder' => 'Character::Items::Item',
+        'Character::Items::Trinket1' => 'Character::Items::Item',
+        'Character::Items::Trinket2' => 'Character::Items::Item',
+        'Character::Items::Wrist' => 'Character::Items::Item',
+        'Character::Items::Waist' => 'Character::Items::Item',
+
+        'Character::Feed::Achievement::Criteria' => 'Character::Feed::Criteria',
+        'Character::Feed::Achievement::RewardItems' => 'Character::Items::Item',
+
+        'Character::Professions::Primary' => 'Character::Professions::Profession',
+        'Character::Professions::Secondary' => 'Character::Professions::Profession',
+
+        'Character::Talents::Glyphs::Major' => 'Character::Talents::Glyphs::Glyph',
+        'Character::Talents::Glyphs::Minor' => 'Character::Talents::Glyphs::Glyph',
+
+        'Character::Guild::Emblem' => 'Guild::Emblem',
+        'Character::HunterPets::Spec' => 'Character::Talents::Spec',
+
+        'Guild::Achievements' => 'Character::Achievements',
+
+        'Guild::Challenge::Groups::Guild' => 'Character::Guild',
+        'Guild::Challenge::Groups::Members::Character::Spec' => 'Character::Talents::Spec',
+        'Guild::Challenge::Groups::Members::Spec' => 'Character::Talents::Spec',
+
+        'Guild::Challenge::Map::BronzeCriteria' => 'Timestamp',
+        'Guild::Challenge::Map::GoldCriteria' => 'Timestamp',
+        'Guild::Challenge::Map::SilverCriteria' => 'Timestamp',
+
+        'Guild::Challenge::Groups::Members::Character' => 'Guild::Members::Character',
+        'Guild::Challenge::Groups::Time' => 'Timestamp',
+
+        'Guild::Members::Character::Spec' => 'Character::Talents::Spec',
+
+        'Guild::News::Achievement' => 'Character::Feed::Achievement',
+    },
+);
