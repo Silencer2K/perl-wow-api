@@ -1,3 +1,8 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
 use Test::More qw(no_plan);
 
 use JSON::XS;
@@ -5,83 +10,99 @@ use JSON::XS;
 sub read_file {
     local $/;
     open FH, shift;
-    $ret = <FH>;
+    my $ret = <FH>;
     close FH;
     return $ret;
 }
 
 sub test_array {
-    my $array = shift;
-    my $struct = shift;
-    my ($p_class, $p_err);
-    my $c = 0;
-    for my $value (@$array) {
-        $c++;
+    my ($array, $struct) = @_;
+
+    my ($prev_class, $has_warn);
+
+    for my $c (0..$#$array) {
+        my $value = $array->[$c];
         my $class = ref $value;
-        if (!$p_err) {
-            if (defined $p_class) {
-                if ($p_class ne $class) {
-                    warn "Array contains different types: $struct";
-                    $p_err = 1;
-                }
+
+        if (!$has_warn) {
+            if (defined $prev_class && $prev_class ne $class) {
+                warn "Different types in array: $struct";
+                $has_warn = 1;
             }
-            $p_class = $class;
+
+            $prev_class = $class;
         }
-        next if !$class;
+
+        next if !$class || $class eq 'JSON::XS::Boolean';
+
         if ($class eq 'ARRAY') {
-            my $ret = test_array($value, "$sturct\[$c]");
+            my $ret = test_array($value, "$struct\[$c]");
             return 0 if !$ret;
         }
         elsif ($class eq 'HASH') {
-            warn "Hash is not blessed: $struct\[$c]";
+            warn "Not blessed: $struct\['$c']";
         }
-        elsif ($class =~ /::/ && !$class =~ /\bJSON::XS\b/) {
+        elsif ($class =~ /::/) {
             my $ret = test_hash($value, "$struct\[$c]");
             return 0 if !$ret;
         }
     }
+
     return 1;
 }
 
 sub test_hash {
-    my $obj = shift;
-    my $struct = shift;
-    for my $key (keys %$obj) {
-        if (!$obj->can($key)) {
-            warn "Method is not exists: ".ref($obj)."->$key()";
+    my ($hash, $struct) = @_;
+
+    for my $key (keys %$hash) {
+        if (!$hash->can($key)) {
+            warn ref($hash)."->$key() failed";
             return 0;
         }
-        my $value = $obj->$key;
-        my $class = ref $value;
-        next if !$class;
+
+        my $value = $hash->$key;
+        my $class = ref($value);
+
+        next if !$class || $class eq 'JSON::XS::Boolean';
+
         if ($class eq 'ARRAY') {
             my $ret = test_array($value, "$struct\{'$key'}");
             return 0 if !$ret;
         }
         elsif ($class eq 'HASH') {
-            warn "Hash is not blessed: $struct\{'$key'}";
+            warn "Not blessed: $struct\{'$key'}";
         }
-        elsif ($class =~ /::/ && !$class =~ /\bJSON::XS\b/) {
+        elsif ($class =~ /::/) {
             my $ret = test_hash($value, "$struct\{'$key'}");
             return 0 if !$ret;
         }
     }
+
     return 1;
 }
 
 sub test_json {
     my ($fname, $class) = @_;
+
     eval "use $class";
     if ($@) {
-        warn "Can't use $class: $@";
+        warn $@;
         return 0;
     }
-    my $obj = $class->new(decode_json(read_file($fname)));
+
+    my $data = decode_json(read_file($fname));
+    if (!$data) {
+        warn 'Bad JSON';
+        return 0;
+    }
+
+    my $obj = $class->new($data);
     if (!$obj) {
-        warn "Can't create new object: $class";
+        warn "$class->new() failed";
         return 0;
     }
-    return test_hash($obj, ref($obj).'->');
+
+    return test_hash($obj, "$class->");
 }
 
 ok(test_json('t/char.json', 'WoW::Armory::Class::Character'));
