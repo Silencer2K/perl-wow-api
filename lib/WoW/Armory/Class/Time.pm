@@ -1,10 +1,10 @@
-package WoW::Armory::Class::Timestamp;
+package WoW::Armory::Class::Time;
 
 use strict;
 use warnings;
 
 ########################################################################
-package WoW::Armory::Class::Timestamp;
+package WoW::Armory::Class::Time;
 
 use base 'WoW::Armory::Class';
 

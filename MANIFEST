@@ -3,7 +3,7 @@ lib/WoW/Armory/API.pm
 lib/WoW/Armory/Class.pm
 lib/WoW/Armory/Class/Character.pm
 lib/WoW/Armory/Class/Guild.pm
-lib/WoW/Armory/Class/Timestamp.pm
+lib/WoW/Armory/Class/Time.pm
 Makefile.PL
 MANIFEST
 README

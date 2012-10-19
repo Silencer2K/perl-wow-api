@@ -41,34 +41,25 @@ WoW::Armory::Tools::ClassMaker->build(
         'Character::Items::Trinket2' => 'Character::Items::Item',
         'Character::Items::Wrist' => 'Character::Items::Item',
         'Character::Items::Waist' => 'Character::Items::Item',
-
         'Character::Feed::Achievement::Criteria' => 'Character::Feed::Criteria',
         'Character::Feed::Achievement::RewardItems' => 'Character::Items::Item',
-
         'Character::Professions::Primary' => 'Character::Professions::Profession',
         'Character::Professions::Secondary' => 'Character::Professions::Profession',
-
         'Character::Talents::Glyphs::Major' => 'Character::Talents::Glyphs::Glyph',
         'Character::Talents::Glyphs::Minor' => 'Character::Talents::Glyphs::Glyph',
-
         'Character::Guild::Emblem' => 'Guild::Emblem',
         'Character::HunterPets::Spec' => 'Character::Talents::Spec',
 
         'Guild::Achievements' => 'Character::Achievements',
-
         'Guild::Challenge::Groups::Guild' => 'Character::Guild',
         'Guild::Challenge::Groups::Members::Character::Spec' => 'Character::Talents::Spec',
         'Guild::Challenge::Groups::Members::Spec' => 'Character::Talents::Spec',
-
-        'Guild::Challenge::Map::BronzeCriteria' => 'Timestamp',
-        'Guild::Challenge::Map::GoldCriteria' => 'Timestamp',
-        'Guild::Challenge::Map::SilverCriteria' => 'Timestamp',
-
+        'Guild::Challenge::Map::BronzeCriteria' => 'Time',
+        'Guild::Challenge::Map::GoldCriteria' => 'Time',
+        'Guild::Challenge::Map::SilverCriteria' => 'Time',
         'Guild::Challenge::Groups::Members::Character' => 'Guild::Members::Character',
-        'Guild::Challenge::Groups::Time' => 'Timestamp',
-
+        'Guild::Challenge::Groups::Time' => 'Time',
         'Guild::Members::Character::Spec' => 'Character::Talents::Spec',
-
         'Guild::News::Achievement' => 'Character::Feed::Achievement',
     },
 );

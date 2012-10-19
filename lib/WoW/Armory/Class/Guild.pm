@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use WoW::Armory::Class::Character;
-use WoW::Armory::Class::Timestamp;
+use WoW::Armory::Class::Time;
 
 ########################################################################
 package WoW::Armory::Class::Guild::News;
@@ -78,9 +78,9 @@ use constant FIELDS => [qw(hasChallengeMode id name slug)];
 
 use constant BLESSED_FIELDS =>
 {
-    bronzeCriteria  => 'WoW::Armory::Class::Timestamp',
-    goldCriteria    => 'WoW::Armory::Class::Timestamp',
-    silverCriteria  => 'WoW::Armory::Class::Timestamp',
+    bronzeCriteria  => 'WoW::Armory::Class::Time',
+    goldCriteria    => 'WoW::Armory::Class::Time',
+    silverCriteria  => 'WoW::Armory::Class::Time',
 };
 
 __PACKAGE__->mk_accessors;
@@ -108,7 +108,7 @@ use constant FIELDS => [qw(date faction isRecurring medal ranking)];
 use constant BLESSED_FIELDS =>
 {
     guild   => 'WoW::Armory::Class::Character::Guild',
-    time    => 'WoW::Armory::Class::Timestamp',
+    time    => 'WoW::Armory::Class::Time',
 };
 
 use constant LIST_FIELDS =>
