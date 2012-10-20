@@ -1,2 +1,6 @@
 Makefile.old
 WoW-Armory-API-*.tar.gz
+MYMETA.*
+Makefile
+blib/*
+pm_to_blib
