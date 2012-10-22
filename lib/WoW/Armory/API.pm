@@ -216,7 +216,7 @@ WoW::Armory::API - Perl interface to WoW API
 =head3 new()
 
     $api = WoW::Armory::API->new;
-    $api = WoW::Armory::API->new(Region => $regionId, locale => $locale);
+    $api = WoW::Armory::API->new(Region => $regionId, Locale => $locale);
 
 =head2 General
 
