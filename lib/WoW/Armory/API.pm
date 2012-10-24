@@ -372,6 +372,11 @@ See L<http://blizzard.github.com/api-wow-docs/> for more details.
 
 L<http://blizzard.github.com/api-wow-docs/>
 
+=head1 REPOSITORY
+
+The source code for the WoW::Armory::API is held in a public git repository
+on Github: L<https://github.com/Silencer2K/perl-wow-api>
+
 =head1 AUTHOR
 
 Aleksandr Aleshin F<E<lt>silencer@cpan.orgE<gt>>
