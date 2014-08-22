@@ -66,7 +66,7 @@ sub test_hash {
         my $value = $hash->$method;
         my $class = ref($value);
 
-        next if !$class || $class eq 'JSON::XS::Boolean';
+        next if !$class || JSON::XS::is_bool($value);
 
         if ($class eq 'ARRAY') {
             my $ret = test_array($value, "$struct\{'$key'}");
